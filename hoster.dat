@@ -1,0 +1,2620 @@
+# ================================================================
+# COMPLETE GLOBAL EMAIL PROVIDERS DATABASE
+# All ISPs and Email Services Worldwide
+# Total: 800+ providers from 100+ countries
+# ================================================================
+
+# ================================================================
+# GLOBAL / INTERNATIONAL PROVIDERS
+# ================================================================
+gmail.com:imap.gmail.com:993
+googlemail.com:imap.gmail.com:993
+outlook.com:outlook.office365.com:993
+hotmail.com:outlook.office365.com:993
+live.com:outlook.office365.com:993
+msn.com:outlook.office365.com:993
+yahoo.com:imap.mail.yahoo.com:993
+aol.com:imap.aol.com:993
+icloud.com:imap.mail.me.com:993
+me.com:imap.mail.me.com:993
+mac.com:imap.mail.me.com:993
+protonmail.com:127.0.0.1:1143
+protonmail.ch:127.0.0.1:1143
+proton.me:127.0.0.1:1143
+pm.me:127.0.0.1:1143
+tutanota.com:imap.tutanota.com:993
+tutanota.de:imap.tutanota.com:993
+tuta.io:imap.tutanota.com:993
+zoho.com:imap.zoho.com:993
+zoho.eu:imap.zoho.eu:993
+zoho.in:imap.zoho.in:993
+mail.com:imap.mail.com:993
+email.com:imap.mail.com:993
+inbox.com:imap.inbox.com:993
+fastmail.com:imap.fastmail.com:993
+fastmail.fm:imap.fastmail.com:993
+hushmail.com:imap.hushmail.com:993
+runbox.com:mail.runbox.com:993
+mailfence.com:imap.mailfence.com:993
+startmail.com:imap.startmail.com:993
+posteo.de:posteo.de:993
+posteo.net:posteo.de:993
+disroot.org:disroot.org:993
+riseup.net:mail.riseup.net:993
+cock.li:mail.cock.li:993
+420blaze.it:mail.420blaze.it:993
+airmail.cc:mail.airmail.cc:993
+guerrillamail.com:imap.guerrillamail.com:993
+yopmail.com:imap.yopmail.com:993
+tempmail.com:imap.tempmail.com:993
+mailinator.com:imap.mailinator.com:993
+gmx.com:imap.gmx.com:993
+lycos.com:imap.lycos.com:993
+excite.com:imap.excite.com:993
+usa.net:imap.usa.net:993
+netscape.net:imap.netscape.net:993
+aim.com:imap.aim.com:993
+currently.com:imap.currently.com:993
+love.com:imap.love.com:993
+ygm.com:imap.ygm.com:993
+games.com:imap.games.com:993
+wow.com:imap.wow.com:993
+writeme.com:imap.writeme.com:993
+dr.com:imap.dr.com:993
+consultant.com:imap.consultant.com:993
+engineer.com:imap.engineer.com:993
+accountant.com:imap.accountant.com:993
+lawyer.com:imap.lawyer.com:993
+activist.com:imap.activist.com:993
+musician.org:imap.musician.org:993
+photographer.net:imap.photographer.net:993
+cheerful.com:imap.cheerful.com:993
+clerk.com:imap.clerk.com:993
+techie.com:imap.techie.com:993
+linuxmail.org:imap.linuxmail.org:993
+
+# ================================================================
+# USA - UNITED STATES (All ISPs)
+# ================================================================
+att.net:imap.mail.att.net:993
+sbcglobal.net:imap.mail.att.net:993
+bellsouth.net:imap.mail.att.net:993
+pacbell.net:imap.mail.att.net:993
+swbell.net:imap.mail.att.net:993
+ameritech.net:imap.mail.att.net:993
+nvbell.net:imap.mail.att.net:993
+prodigy.net:imap.mail.att.net:993
+flash.net:imap.mail.att.net:993
+wans.net:imap.mail.att.net:993
+worldnet.att.net:imap.mail.att.net:993
+comcast.net:imap.comcast.net:993
+xfinity.com:imap.comcast.net:993
+verizon.net:incoming.verizon.net:993
+verizon.com:incoming.verizon.net:993
+fios.verizon.net:incoming.verizon.net:993
+cox.net:imap.cox.net:993
+charter.net:mobile.charter.net:993
+spectrum.net:mobile.charter.net:993
+rr.com:imap.spectrum.net:993
+cfl.rr.com:imap.spectrum.net:993
+tampabay.rr.com:imap.spectrum.net:993
+twc.com:imap.spectrum.net:993
+roadrunner.com:imap.spectrum.net:993
+wi.rr.com:imap.spectrum.net:993
+nc.rr.com:imap.spectrum.net:993
+sc.rr.com:imap.spectrum.net:993
+nycap.rr.com:imap.spectrum.net:993
+rochester.rr.com:imap.spectrum.net:993
+earthlink.net:imap.earthlink.net:993
+mindspring.com:imap.earthlink.net:993
+juno.com:imap.juno.com:993
+netzero.net:imap.netzero.net:993
+netzero.com:imap.netzero.net:993
+optonline.net:mail.optonline.net:993
+optimum.net:mail.optonline.net:993
+cablevision.net:mail.optonline.net:993
+frontier.com:imap.frontier.com:993
+frontiernet.net:imap.frontier.com:993
+centurylink.net:imap.centurylink.net:993
+centurytel.net:imap.centurylink.net:993
+embarqmail.com:imap.centurylink.net:993
+q.com:imap.centurylink.net:993
+windstream.net:imap.windstream.net:993
+windstream.com:imap.windstream.net:993
+adelphia.net:imap.adelphia.net:993
+suddenlink.net:imap.suddenlink.net:993
+suddenlinkmail.com:imap.suddenlink.net:993
+mediacombb.net:imap.mediacombb.net:993
+mediacomtoday.com:imap.mediacombb.net:993
+toast.net:imap.toast.net:993
+ptd.net:imap.ptd.net:993
+epix.net:imap.epix.net:993
+rcn.com:imap.rcn.com:993
+astound.net:imap.astound.net:993
+woh.rr.com:imap.spectrum.net:993
+hawaii.rr.com:imap.spectrum.net:993
+austin.rr.com:imap.spectrum.net:993
+satx.rr.com:imap.spectrum.net:993
+kc.rr.com:imap.spectrum.net:993
+stl.rr.com:imap.spectrum.net:993
+ec.rr.com:imap.spectrum.net:993
+triad.rr.com:imap.spectrum.net:993
+insight.rr.com:imap.spectrum.net:993
+cinci.rr.com:imap.spectrum.net:993
+indy.rr.com:imap.spectrum.net:993
+neo.rr.com:imap.spectrum.net:993
+wowway.com:imap.wowway.com:993
+wideopenwest.com:imap.wowway.com:993
+peoplepc.com:imap.peoplepc.com:993
+localnet.com:imap.localnet.com:993
+snet.net:imap.snet.net:993
+mchsi.com:imap.mediacombb.net:993
+consolidated.net:imap.consolidated.net:993
+gvtc.com:imap.gvtc.com:993
+hughes.net:imap.hughes.net:993
+dishmail.net:imap.dishmail.net:993
+direcway.com:imap.direcway.com:993
+starband.net:imap.starband.net:993
+wildblue.net:imap.wildblue.net:993
+exede.net:imap.exede.net:993
+
+# ================================================================
+# FRANCE (Complete)
+# ================================================================
+orange.fr:imap.orange.fr:993
+wanadoo.fr:imap.orange.fr:993
+voila.fr:imap.orange.fr:993
+free.fr:imap.free.fr:993
+aliceadsl.fr:imap.free.fr:993
+sfr.fr:imap.sfr.fr:993
+neuf.fr:imap.sfr.fr:993
+cegetel.net:imap.sfr.fr:993
+club-internet.fr:imap.sfr.fr:993
+9online.fr:imap.sfr.fr:993
+9business.fr:imap.sfr.fr:993
+laposte.net:imap.laposte.net:993
+bbox.fr:imap.bbox.fr:993
+bouygtel.fr:imap.bbox.fr:993
+bouyguestelecom.fr:imap.bbox.fr:993
+numericable.fr:imap.numericable.fr:993
+noos.fr:imap.numericable.fr:993
+nc.numericable.fr:imap.numericable.fr:993
+alice.fr:imap.alice.fr:993
+yahoo.fr:imap.mail.yahoo.com:993
+hotmail.fr:outlook.office365.com:993
+live.fr:outlook.office365.com:993
+outlook.fr:outlook.office365.com:993
+dbmail.com:imap.dbmail.com:993
+tele2.fr:imap.tele2.fr:993
+nordnet.fr:imap.nordnet.fr:993
+infonie.fr:imap.infonie.fr:993
+caramail.com:imap.caramail.com:993
+libertysurf.fr:imap.libertysurf.fr:993
+magic.fr:imap.magic.fr:993
+worldonline.fr:imap.worldonline.fr:993
+oreka.com:imap.oreka.com:993
+modulonet.fr:imap.modulonet.fr:993
+estvideo.fr:imap.estvideo.fr:993
+cario.fr:imap.cario.fr:993
+altern.org:imap.altern.org:993
+no-log.org:imap.no-log.org:993
+netcourrier.com:imap.netcourrier.com:993
+mailo.com:imap.mailo.com:993
+
+# ================================================================
+# GERMANY (Complete)
+# ================================================================
+gmx.de:imap.gmx.net:993
+gmx.net:imap.gmx.net:993
+gmx.at:imap.gmx.net:993
+gmx.ch:imap.gmx.net:993
+gmx.eu:imap.gmx.net:993
+web.de:imap.web.de:993
+t-online.de:secureimap.t-online.de:993
+magenta.de:secureimap.t-online.de:993
+freenet.de:mx.freenet.de:993
+arcor.de:imap.arcor.de:993
+vodafone.de:imap.vodafone.de:993
+kabel.vodafone.de:imap.vodafone.de:993
+1und1.de:imap.1und1.de:993
+ionos.de:imap.ionos.de:993
+posteo.de:posteo.de:993
+mailbox.org:imap.mailbox.org:993
+yahoo.de:imap.mail.yahoo.com:993
+hotmail.de:outlook.office365.com:993
+live.de:outlook.office365.com:993
+outlook.de:outlook.office365.com:993
+kabelmail.de:imap.kabelmail.de:993
+kabelbw.de:imap.kabelbw.de:993
+unitymedia.de:imap.unitymedia.de:993
+o2online.de:imap.o2online.de:993
+o2mail.de:imap.o2online.de:993
+alice-dsl.de:imap.alice-dsl.de:993
+aol.de:imap.de.aol.com:993
+ewetel.de:imap.ewetel.de:993
+ewetel.net:imap.ewetel.net:993
+osnanet.de:imap.osnanet.de:993
+versanet.de:imap.versanet.de:993
+netcologne.de:imap.netcologne.de:993
+netaachen.de:imap.netaachen.de:993
+mnet-mail.de:imap.mnet-mail.de:993
+htp.net:imap.htp.net:993
+epost.de:imap.epost.de:993
+online.de:imap.online.de:993
+nexgo.de:imap.nexgo.de:993
+firemail.de:imap.firemail.de:993
+go4more.de:imap.go4more.de:993
+mail.de:imap.mail.de:993
+emailn.de:imap.emailn.de:993
+ok.de:imap.ok.de:993
+
+# ================================================================
+# UK - UNITED KINGDOM (Complete)
+# ================================================================
+btinternet.com:imap.btinternet.com:993
+btopenworld.com:imap.btinternet.com:993
+btconnect.com:imap.btinternet.com:993
+talk21.com:imap.btinternet.com:993
+bt.com:imap.btinternet.com:993
+sky.com:imap.sky.com:993
+skynet.be:imap.skynet.be:993
+virginmedia.com:imap.virginmedia.com:993
+virgin.net:imap.virgin.net:993
+ntlworld.com:imap.ntlworld.com:993
+blueyonder.co.uk:imap.blueyonder.co.uk:993
+talktalk.net:imap.talktalk.net:993
+talktalk.co.uk:imap.talktalk.net:993
+tiscali.co.uk:imap.tiscali.co.uk:993
+plus.net:imap.plus.net:993
+plusnet.com:imap.plus.net:993
+yahoo.co.uk:imap.mail.yahoo.com:993
+hotmail.co.uk:outlook.office365.com:993
+live.co.uk:outlook.office365.com:993
+outlook.co.uk:outlook.office365.com:993
+aol.co.uk:imap.aol.com:993
+o2.co.uk:imap.o2.co.uk:993
+o2email.co.uk:imap.o2.co.uk:993
+orange.co.uk:imap.orange.co.uk:993
+orangehome.co.uk:imap.orange.co.uk:993
+ee.co.uk:imap.ee.co.uk:993
+zen.co.uk:imap.zen.co.uk:993
+eclipse.co.uk:imap.eclipse.co.uk:993
+demon.co.uk:imap.demon.co.uk:993
+freeserve.co.uk:imap.freeserve.co.uk:993
+waitrose.com:imap.waitrose.com:993
+supanet.com:imap.supanet.com:993
+clara.net:imap.clara.net:993
+clara.co.uk:imap.clara.co.uk:993
+force9.co.uk:imap.force9.co.uk:993
+ic24.net:imap.ic24.net:993
+lineone.net:imap.lineone.net:993
+madasafish.com:imap.madasafish.com:993
+postmaster.co.uk:imap.postmaster.co.uk:993
+ukgateway.net:imap.ukgateway.net:993
+uwclub.net:imap.uwclub.net:993
+homechoice.co.uk:imap.homechoice.co.uk:993
+
+# ================================================================
+# SPAIN - ESPAÑA (Complete)
+# ================================================================
+telefonica.net:imap.telefonica.net:993
+telefonica.es:imap.telefonica.net:993
+movistar.es:imap.movistar.es:993
+terra.es:imap.terra.es:993
+terra.com:imap.terra.com:993
+orange.es:imap.orange.es:993
+wanadoo.es:imap.orange.es:993
+vodafone.es:imap.vodafone.es:993
+ono.es:imap.vodafone.es:993
+jazztel.es:imap.jazztel.es:993
+jazztelia.es:imap.jazztel.es:993
+ya.com:imap.ya.com:993
+yahoo.es:imap.mail.yahoo.com:993
+hotmail.es:outlook.office365.com:993
+live.es:outlook.office365.com:993
+outlook.es:outlook.office365.com:993
+euskaltel.es:imap.euskaltel.es:993
+telecable.es:imap.telecable.es:993
+r.es:imap.mundo-r.com:993
+mundo-r.com:imap.mundo-r.com:993
+masmovil.com:imap.masmovil.com:993
+pepephone.com:imap.pepephone.com:993
+yoigo.com:imap.yoigo.com:993
+able.es:imap.able.es:993
+arrakis.es:imap.arrakis.es:993
+teleline.es:imap.teleline.es:993
+eresmas.com:imap.eresmas.com:993
+wanadoo.es:imap.wanadoo.es:993
+mixmail.com:imap.mixmail.com:993
+
+# ================================================================
+# ITALY - ITALIA (Complete)
+# ================================================================
+libero.it:imapmail.libero.it:993
+virgilio.it:imap.virgilio.it:993
+alice.it:imap.alice.it:993
+tin.it:imap.tin.it:993
+tim.it:imap.tim.it:993
+telecomitalia.it:imap.telecomitalia.it:993
+tiscali.it:imap.tiscali.it:993
+fastwebnet.it:imap.fastwebnet.it:993
+fastweb.it:imap.fastwebnet.it:993
+vodafone.it:imap.vodafone.it:993
+wind.it:imap.wind.it:993
+windtre.it:imap.wind.it:993
+tre.it:imap.tre.it:993
+yahoo.it:imap.mail.yahoo.com:993
+hotmail.it:outlook.office365.com:993
+live.it:outlook.office365.com:993
+outlook.it:outlook.office365.com:993
+poste.it:imap.poste.it:993
+postecert.it:imap.postecert.it:993
+aruba.it:imap.aruba.it:993
+arubapec.it:imap.arubapec.it:993
+pec.it:imap.pec.it:993
+legalmail.it:imap.legalmail.it:993
+register.it:imap.register.it:993
+email.it:imap.email.it:993
+inwind.it:imap.inwind.it:993
+iol.it:imap.iol.it:993
+supereva.it:imap.supereva.it:993
+kataweb.it:imap.kataweb.it:993
+blu.it:imap.blu.it:993
+interfree.it:imap.interfree.it:993
+galactica.it:imap.galactica.it:993
+infinito.it:imap.infinito.it:993
+jumpy.it:imap.jumpy.it:993
+lycos.it:imap.lycos.it:993
+monrif.net:imap.monrif.net:993
+tele2.it:imap.tele2.it:993
+
+# ================================================================
+# PORTUGAL (Complete)
+# ================================================================
+sapo.pt:imap.sapo.pt:993
+mail.pt:imap.mail.pt:993
+clix.pt:imap.clix.pt:993
+netcabo.pt:imap.netcabo.pt:993
+iol.pt:imap.iol.pt:993
+vodafone.pt:imap.vodafone.pt:993
+meo.pt:imap.meo.pt:993
+nos.pt:imap.nos.pt:993
+nowo.pt:imap.nowo.pt:993
+yahoo.pt:imap.mail.yahoo.com:993
+hotmail.pt:outlook.office365.com:993
+live.pt:outlook.office365.com:993
+outlook.pt:outlook.office365.com:993
+telepac.pt:imap.telepac.pt:993
+mail.telepac.pt:imap.telepac.pt:993
+oninet.pt:imap.oninet.pt:993
+esoterica.pt:imap.esoterica.pt:993
+ip.pt:imap.ip.pt:993
+
+# ================================================================
+# NETHERLANDS - NEDERLAND (Complete)
+# ================================================================
+ziggo.nl:imap.ziggo.nl:993
+kpn.nl:imap.kpn.nl:993
+kpnmail.nl:imap.kpn.nl:993
+kpnplanet.nl:imap.kpn.nl:993
+xs4all.nl:imap.xs4all.nl:993
+planet.nl:imap.planet.nl:993
+tele2.nl:imap.tele2.nl:993
+home.nl:imap.home.nl:993
+hetnet.nl:imap.hetnet.nl:993
+upcmail.nl:imap.upcmail.nl:993
+casema.nl:imap.casema.nl:993
+chello.nl:imap.chello.nl:993
+quicknet.nl:imap.quicknet.nl:993
+yahoo.nl:imap.mail.yahoo.com:993
+hotmail.nl:outlook.office365.com:993
+live.nl:outlook.office365.com:993
+outlook.nl:outlook.office365.com:993
+zonnet.nl:imap.zonnet.nl:993
+tiscali.nl:imap.tiscali.nl:993
+lycos.nl:imap.lycos.nl:993
+wanadoo.nl:imap.wanadoo.nl:993
+versatel.nl:imap.versatel.nl:993
+freeler.nl:imap.freeler.nl:993
+kabelfoon.nl:imap.kabelfoon.nl:993
+solcon.nl:imap.solcon.nl:993
+concepts.nl:imap.concepts.nl:993
+filternet.nl:imap.filternet.nl:993
+
+# ================================================================
+# BELGIUM - BELGIQUE (Complete)
+# ================================================================
+telenet.be:imap.telenet.be:993
+skynet.be:imap.skynet.be:993
+proximus.be:imap.proximus.be:993
+belgacom.be:imap.belgacom.be:993
+voo.be:imap.voo.be:993
+scarlet.be:imap.scarlet.be:993
+base.be:imap.base.be:993
+mobistar.be:imap.mobistar.be:993
+orange.be:imap.orange.be:993
+pandora.be:imap.pandora.be:993
+swing.be:imap.swing.be:993
+tiscali.be:imap.tiscali.be:993
+pi.be:imap.pi.be:993
+euphonynet.be:imap.euphonynet.be:993
+yahoo.be:imap.mail.yahoo.com:993
+hotmail.be:outlook.office365.com:993
+live.be:outlook.office365.com:993
+
+# ================================================================
+# SWITZERLAND - SUISSE (Complete)
+# ================================================================
+bluewin.ch:imap.bluewin.ch:993
+swisscom.ch:imap.bluewin.ch:993
+sunrise.ch:imap.sunrise.ch:993
+swissonline.ch:imap.swissonline.ch:993
+hispeed.ch:imap.hispeed.ch:993
+vtx.ch:imap.vtx.ch:993
+green.ch:imap.green.ch:993
+gmx.ch:imap.gmx.net:993
+yahoo.ch:imap.mail.yahoo.com:993
+hotmail.ch:outlook.office365.com:993
+live.ch:outlook.office365.com:993
+cablecom.ch:imap.cablecom.ch:993
+upc.ch:imap.upc.ch:993
+quickline.ch:imap.quickline.ch:993
+salt.ch:imap.salt.ch:993
+yallo.ch:imap.yallo.ch:993
+wingo.ch:imap.wingo.ch:993
+init7.net:imap.init7.net:993
+datacomm.ch:imap.datacomm.ch:993
+econophone.ch:imap.econophone.ch:993
+span.ch:imap.span.ch:993
+smile.ch:imap.smile.ch:993
+tic.ch:imap.tic.ch:993
+freesurf.ch:imap.freesurf.ch:993
+
+# ================================================================
+# AUSTRIA - ÖSTERREICH (Complete)
+# ================================================================
+a1.net:imap.a1.net:993
+aon.at:imap.aon.at:993
+chello.at:imap.chello.at:993
+gmx.at:imap.gmx.net:993
+inode.at:imap.inode.at:993
+tele2.at:imap.tele2.at:993
+drei.at:imap.drei.at:993
+liwest.at:imap.liwest.at:993
+kabsi.at:imap.kabsi.at:993
+magenta.at:imap.magenta.at:993
+yahoo.at:imap.mail.yahoo.com:993
+hotmail.at:outlook.office365.com:993
+live.at:outlook.office365.com:993
+sil.at:imap.sil.at:993
+utanet.at:imap.utanet.at:993
+eunet.at:imap.eunet.at:993
+silverserver.at:imap.silverserver.at:993
+vienna.at:imap.vienna.at:993
+speed.at:imap.speed.at:993
+cablelink.at:imap.cablelink.at:993
+
+# ================================================================
+# POLAND - POLSKA (Complete)
+# ================================================================
+wp.pl:imap.wp.pl:993
+o2.pl:imap.o2.pl:993
+onet.pl:imap.poczta.onet.pl:993
+onet.eu:imap.poczta.onet.pl:993
+interia.pl:imap.interia.pl:993
+interia.eu:imap.interia.pl:993
+gazeta.pl:imap.gazeta.pl:993
+poczta.fm:imap.poczta.fm:993
+op.pl:imap.op.pl:993
+tlen.pl:imap.tlen.pl:993
+buziaczek.pl:imap.buziaczek.pl:993
+vp.pl:imap.vp.pl:993
+go2.pl:imap.go2.pl:993
+yahoo.pl:imap.mail.yahoo.com:993
+hotmail.pl:outlook.office365.com:993
+live.pl:outlook.office365.com:993
+autograf.pl:imap.autograf.pl:993
+pino.pl:imap.pino.pl:993
+prokonto.pl:imap.prokonto.pl:993
+spoko.pl:imap.spoko.pl:993
+gery.pl:imap.gery.pl:993
+
+# ================================================================
+# RUSSIA - РОССИЯ (Complete)
+# ================================================================
+mail.ru:imap.mail.ru:993
+inbox.ru:imap.mail.ru:993
+list.ru:imap.mail.ru:993
+bk.ru:imap.mail.ru:993
+internet.ru:imap.mail.ru:993
+yandex.ru:imap.yandex.ru:993
+yandex.com:imap.yandex.com:993
+yandex.by:imap.yandex.by:993
+yandex.kz:imap.yandex.kz:993
+yandex.ua:imap.yandex.ua:993
+ya.ru:imap.yandex.ru:993
+narod.ru:imap.yandex.ru:993
+rambler.ru:imap.rambler.ru:993
+lenta.ru:imap.rambler.ru:993
+autorambler.ru:imap.rambler.ru:993
+myrambler.ru:imap.rambler.ru:993
+ro.ru:imap.rambler.ru:993
+r0.ru:imap.rambler.ru:993
+qip.ru:imap.qip.ru:993
+pochta.ru:imap.pochta.ru:993
+newmail.ru:imap.newmail.ru:993
+nm.ru:imap.newmail.ru:993
+hotbox.ru:imap.hotbox.ru:993
+fromru.com:imap.fromru.com:993
+front.ru:imap.front.ru:993
+hotmail.ru:outlook.office365.com:993
+live.ru:outlook.office365.com:993
+pisem.net:imap.pisem.net:993
+pochtamt.ru:imap.pochtamt.ru:993
+rbcmail.ru:imap.rbcmail.ru:993
+
+# ================================================================
+# UKRAINE - УКРАЇНА (Complete)
+# ================================================================
+ukr.net:imap.ukr.net:993
+i.ua:imap.i.ua:993
+ua.fm:imap.i.ua:993
+email.ua:imap.email.ua:993
+e-mail.ua:imap.e-mail.ua:993
+meta.ua:imap.meta.ua:993
+bigmir.net:imap.bigmir.net:993
+online.ua:imap.online.ua:993
+breezein.net:imap.breezein.net:993
+3g.ua:imap.3g.ua:993
+ur.net:imap.ur.net:993
+inbox.lv:imap.inbox.lv:993
+
+# ================================================================
+# TURKEY - TÜRKİYE (Complete)
+# ================================================================
+yandex.com.tr:imap.yandex.com.tr:993
+hotmail.com.tr:outlook.office365.com:993
+yahoo.com.tr:imap.mail.yahoo.com:993
+superonline.com:imap.superonline.com:993
+turk.net:imap.turk.net:993
+ttnet.net.tr:imap.ttnet.net.tr:993
+mynet.com:imap.mynet.com:993
+mynet.com.tr:imap.mynet.com:993
+isnet.net.tr:imap.isnet.net.tr:993
+doruk.net.tr:imap.doruk.net.tr:993
+e-kolay.net:imap.e-kolay.net:993
+ttmail.com:imap.ttmail.com:993
+turkticaret.net:imap.turkticaret.net:993
+turkcell.com.tr:imap.turkcell.com.tr:993
+vodafone.com.tr:imap.vodafone.com.tr:993
+
+# ================================================================
+# GREECE - ΕΛΛΆΔΑ (Complete)
+# ================================================================
+otenet.gr:imap.otenet.gr:993
+forthnet.gr:imap.forthnet.gr:993
+hol.gr:imap.hol.gr:993
+vodafone.gr:imap.vodafone.gr:993
+cosmote.gr:imap.cosmote.gr:993
+yahoo.gr:imap.mail.yahoo.com:993
+hotmail.gr:outlook.office365.com:993
+live.gr:outlook.office365.com:993
+in.gr:imap.in.gr:993
+pathfinder.gr:imap.pathfinder.gr:993
+tee.gr:imap.tee.gr:993
+acn.gr:imap.acn.gr:993
+tellas.gr:imap.tellas.gr:993
+netone.gr:imap.netone.gr:993
+wind.gr:imap.wind.gr:993
+cyta.gr:imap.cyta.gr:993
+
+# ================================================================
+# CZECH REPUBLIC - ČESKÁ REPUBLIKA (Complete)
+# ================================================================
+seznam.cz:imap.seznam.cz:993
+email.cz:imap.email.cz:993
+post.cz:imap.post.cz:993
+centrum.cz:imap.centrum.cz:993
+volny.cz:imap.volny.cz:993
+atlas.cz:imap.atlas.cz:993
+tiscali.cz:imap.tiscali.cz:993
+quick.cz:imap.quick.cz:993
+iol.cz:imap.iol.cz:993
+worldonline.cz:imap.worldonline.cz:993
+sendme.cz:imap.sendme.cz:993
+hotmail.cz:outlook.office365.com:993
+live.cz:outlook.office365.com:993
+
+# ================================================================
+# ROMANIA - ROMÂNIA (Complete)
+# ================================================================
+yahoo.ro:imap.mail.yahoo.com:993
+hotmail.ro:outlook.office365.com:993
+rdslink.ro:imap.rdslink.ro:993
+clicknet.ro:imap.clicknet.ro:993
+mail.com.ro:imap.mail.com.ro:993
+home.ro:imap.home.ro:993
+k.ro:imap.k.ro:993
+pcnet.ro:imap.pcnet.ro:993
+mail.ro:imap.mail.ro:993
+rdsmail.ro:imap.rdsmail.ro:993
+
+# ================================================================
+# HUNGARY - MAGYARORSZÁG (Complete)
+# ================================================================
+freemail.hu:imap.freemail.hu:993
+citromail.hu:imap.citromail.hu:993
+indamail.hu:imap.indamail.hu:993
+t-online.hu:imap.t-online.hu:993
+vipmail.hu:imap.vipmail.hu:993
+tvn.hu:imap.tvn.hu:993
+externet.hu:imap.externet.hu:993
+invitel.hu:imap.invitel.hu:993
+hotmail.hu:outlook.office365.com:993
+live.hu:outlook.office365.com:993
+
+# ================================================================
+# SCANDINAVIA (Sweden, Norway, Denmark, Finland, Iceland)
+# ================================================================
+# Sweden
+telia.se:imap.telia.se:993
+bredband.net:imap.bredband.net:993
+comhem.se:imap.comhem.se:993
+spray.se:imap.spray.se:993
+tele2.se:imap.tele2.se:993
+yahoo.se:imap.mail.yahoo.com:993
+hotmail.se:outlook.office365.com:993
+live.se:outlook.office365.com:993
+passagen.se:imap.passagen.se:993
+swipnet.se:imap.swipnet.se:993
+glocalnet.net:imap.glocalnet.net:993
+bahnhof.se:imap.bahnhof.se:993
+bredbandsbolaget.se:imap.bredbandsbolaget.se:993
+
+# Norway
+online.no:imap.online.no:993
+telenor.no:imap.telenor.no:993
+broadpark.no:imap.broadpark.no:993
+yahoo.no:imap.mail.yahoo.com:993
+hotmail.no:outlook.office365.com:993
+live.no:outlook.office365.com:993
+c2i.net:imap.c2i.net:993
+frisurf.no:imap.frisurf.no:993
+getmail.no:imap.getmail.no:993
+start.no:imap.start.no:993
+
+# Denmark
+mail.dk:imap.mail.dk:993
+jubii.dk:imap.jubii.dk:993
+tdcadsl.dk:imap.tdcadsl.dk:993
+get2net.dk:imap.get2net.dk:993
+yahoo.dk:imap.mail.yahoo.com:993
+hotmail.dk:outlook.office365.com:993
+live.dk:outlook.office365.com:993
+teliamail.dk:imap.teliamail.dk:993
+tele.dk:imap.tele.dk:993
+ofir.dk:imap.ofir.dk:993
+telepost.dk:imap.telepost.dk:993
+cybercity.dk:imap.cybercity.dk:993
+worldonline.dk:imap.worldonline.dk:993
+
+# Finland
+pp.inet.fi:imap.inet.fi:993
+kolumbus.fi:imap.kolumbus.fi:993
+suomi24.fi:imap.suomi24.fi:993
+luukku.com:imap.luukku.com:993
+elisa.fi:imap.elisa.fi:993
+saunalahti.fi:imap.saunalahti.fi:993
+welho.com:imap.welho.com:993
+pp.htv.fi:imap.htv.fi:993
+surfeu.fi:imap.surfeu.fi:993
+dlc.fi:imap.dlc.fi:993
+soon.fi:imap.soon.fi:993
+nic.fi:imap.nic.fi:993
+netti.fi:imap.netti.fi:993
+hotmail.fi:outlook.office365.com:993
+
+# Iceland
+simnet.is:imap.simnet.is:993
+ismennt.is:imap.ismennt.is:993
+internet.is:imap.internet.is:993
+vodafone.is:imap.vodafone.is:993
+
+# ================================================================
+# JAPAN - 日本 (Complete)
+# ================================================================
+yahoo.co.jp:imap.mail.yahoo.co.jp:993
+docomo.ne.jp:imap.spmode.ne.jp:993
+ezweb.ne.jp:imap.ezweb.ne.jp:993
+au.com:imap.au.com:993
+softbank.ne.jp:imap.softbank.jp:993
+i.softbank.jp:imap.softbank.jp:993
+nifty.com:imap.nifty.com:993
+biglobe.ne.jp:imap.biglobe.ne.jp:993
+so-net.ne.jp:imap.so-net.ne.jp:993
+ocn.ne.jp:imap.ocn.ne.jp:993
+plala.or.jp:imap.plala.or.jp:993
+infoseek.jp:imap.infoseek.jp:993
+excite.co.jp:imap.excite.co.jp:993
+goo.jp:imap.goo.ne.jp:993
+goo.ne.jp:imap.goo.ne.jp:993
+livedoor.com:imap.livedoor.com:993
+ybb.ne.jp:imap.ybb.ne.jp:993
+dion.ne.jp:imap.dion.ne.jp:993
+hi-ho.ne.jp:imap.hi-ho.ne.jp:993
+sannet.ne.jp:imap.sannet.ne.jp:993
+wakwak.com:imap.wakwak.com:993
+asahi-net.or.jp:imap.asahi-net.or.jp:993
+nifty.ne.jp:imap.nifty.com:993
+t-com.ne.jp:imap.t-com.ne.jp:993
+jcom.zaq.ne.jp:imap.jcom.zaq.ne.jp:993
+emobile.ne.jp:imap.emobile.ne.jp:993
+willcom.com:imap.willcom.com:993
+rakuten.jp:imap.rakuten.jp:993
+
+# ================================================================
+# CHINA - 中国 (Complete)
+# ================================================================
+qq.com:imap.qq.com:993
+foxmail.com:imap.qq.com:993
+163.com:imap.163.com:993
+126.com:imap.126.com:993
+yeah.net:imap.yeah.net:993
+sina.com:imap.sina.com:993
+sina.cn:imap.sina.cn:993
+vip.sina.com:imap.vip.sina.com:993
+sohu.com:imap.sohu.com:993
+tom.com:imap.tom.com:993
+21cn.com:imap.21cn.com:993
+189.cn:imap.189.cn:993
+139.com:imap.139.com:993
+aliyun.com:imap.aliyun.com:993
+wo.cn:imap.wo.cn:993
+china.com:imap.china.com:993
+chinaren.com:imap.chinaren.com:993
+eyou.com:imap.eyou.com:993
+etang.com:imap.etang.com:993
+citiz.net:imap.citiz.net:993
+263.net:imap.263.net:993
+x263.net:imap.x263.net:993
+sogou.com:imap.sogou.com:993
+188.com:imap.188.com:993
+
+# ================================================================
+# SOUTH KOREA - 대한민국 (Complete)
+# ================================================================
+naver.com:imap.naver.com:993
+hanmail.net:imap.daum.net:993
+daum.net:imap.daum.net:993
+kakao.com:imap.kakao.com:993
+nate.com:imap.nate.com:993
+korea.com:imap.korea.com:993
+paran.com:imap.paran.com:993
+dreamwiz.com:imap.dreamwiz.com:993
+empal.com:imap.empal.com:993
+freechal.com:imap.freechal.com:993
+hanafos.com:imap.hanafos.com:993
+hitel.net:imap.hitel.net:993
+kornet.net:imap.kornet.net:993
+chol.com:imap.chol.com:993
+netian.com:imap.netian.com:993
+
+# ================================================================
+# INDIA - भारत (Complete)
+# ================================================================
+rediffmail.com:imap.rediffmail.com:993
+indiatimes.com:imap.indiatimes.com:993
+sify.com:imap.sifymail.com:993
+yahoo.co.in:imap.mail.yahoo.com:993
+yahoo.in:imap.mail.yahoo.com:993
+hotmail.co.in:outlook.office365.com:993
+in.com:imap.in.com:993
+airtelmail.in:imap.airtelmail.in:993
+vsnl.net.in:imap.vsnl.net.in:993
+vsnl.com:imap.vsnl.com:993
+sancharnet.in:imap.sancharnet.in:993
+dataone.in:imap.dataone.in:993
+eth.net:imap.eth.net:993
+mtnl.net.in:imap.mtnl.net.in:993
+bsnl.in:imap.bsnl.in:993
+hathway.com:imap.hathway.com:993
+spectranet.in:imap.spectranet.in:993
+
+# ================================================================
+# BRAZIL - BRASIL (Complete)
+# ================================================================
+uol.com.br:imap.uol.com.br:993
+bol.com.br:imap.bol.com.br:993
+ig.com.br:imap.ig.com.br:993
+terra.com.br:imap.terra.com.br:993
+globo.com:imap.globo.com:993
+globomail.com:imap.globomail.com:993
+zipmail.com.br:imap.zipmail.com.br:993
+oi.com.br:imap.oi.com.br:993
+veloxmail.com.br:imap.veloxmail.com.br:993
+r7.com:imap.r7.com:993
+yahoo.com.br:imap.mail.yahoo.com:993
+hotmail.com.br:outlook.office365.com:993
+live.com.br:outlook.office365.com:993
+outlook.com.br:outlook.office365.com:993
+ibest.com.br:imap.ibest.com.br:993
+brturbo.com.br:imap.brturbo.com.br:993
+superig.com.br:imap.superig.com.br:993
+pop.com.br:imap.pop.com.br:993
+itelefonica.com.br:imap.itelefonica.com.br:993
+speedy.com.br:imap.speedy.com.br:993
+ajato.com.br:imap.ajato.com.br:993
+netsite.com.br:imap.netsite.com.br:993
+click21.com.br:imap.click21.com.br:993
+
+# ================================================================
+# MEXICO - MÉXICO (Complete)
+# ================================================================
+prodigy.net.mx:imap.prodigy.net.mx:993
+yahoo.com.mx:imap.mail.yahoo.com:993
+hotmail.com.mx:outlook.office365.com:993
+live.com.mx:outlook.office365.com:993
+outlook.com.mx:outlook.office365.com:993
+telmex.com:imap.telmex.com:993
+infinitum.com.mx:imap.infinitum.com.mx:993
+axtel.net:imap.axtel.net:993
+att.com.mx:imap.att.com.mx:993
+megared.net.mx:imap.megared.net.mx:993
+cablevision.net.mx:imap.cablevision.net.mx:993
+mail.com.mx:imap.mail.com.mx:993
+infosel.net.mx:imap.infosel.net.mx:993
+terra.com.mx:imap.terra.com.mx:993
+
+# ================================================================
+# ARGENTINA (Complete)
+# ================================================================
+yahoo.com.ar:imap.mail.yahoo.com:993
+hotmail.com.ar:outlook.office365.com:993
+live.com.ar:outlook.office365.com:993
+outlook.com.ar:outlook.office365.com:993
+fibertel.com.ar:imap.fibertel.com.ar:993
+ciudad.com.ar:imap.ciudad.com.ar:993
+speedy.com.ar:imap.speedy.com.ar:993
+arnet.com.ar:imap.arnet.com.ar:993
+telecentro.com.ar:imap.telecentro.com.ar:993
+fullzero.com.ar:imap.fullzero.com.ar:993
+uolsinectis.com.ar:imap.uolsinectis.com.ar:993
+bbt.net.ar:imap.bbt.net.ar:993
+infovia.com.ar:imap.infovia.com.ar:993
+tutopia.com:imap.tutopia.com:993
+sinectis.com.ar:imap.sinectis.com.ar:993
+
+# ================================================================
+# CHILE (Complete)
+# ================================================================
+yahoo.cl:imap.mail.yahoo.com:993
+hotmail.cl:outlook.office365.com:993
+live.cl:outlook.office365.com:993
+vtr.net:imap.vtr.net:993
+entelchile.net:imap.entelchile.net:993
+terra.cl:imap.terra.cl:993
+123.cl:imap.123.cl:993
+mi.cl:imap.mi.cl:993
+chilesat.net:imap.chilesat.net:993
+ctcinternet.cl:imap.ctcinternet.cl:993
+netline.cl:imap.netline.cl:993
+
+# ================================================================
+# COLOMBIA (Complete)
+# ================================================================
+yahoo.com.co:imap.mail.yahoo.com:993
+hotmail.com.co:outlook.office365.com:993
+live.com.co:outlook.office365.com:993
+une.net.co:imap.une.net.co:993
+etb.net.co:imap.etb.net.co:993
+telecom.com.co:imap.telecom.com.co:993
+emcali.net.co:imap.emcali.net.co:993
+cable.net.co:imap.cable.net.co:993
+coldecon.net.co:imap.coldecon.net.co:993
+andinet.com:imap.andinet.com:993
+epm.net.co:imap.epm.net.co:993
+tutopia.com.co:imap.tutopia.com:993
+
+# ================================================================
+# AUSTRALIA (Complete)
+# ================================================================
+bigpond.com:imap.telstra.com:993
+bigpond.net.au:imap.telstra.com:993
+telstra.com:imap.telstra.com:993
+optusnet.com.au:mail.optusnet.com.au:993
+optus.com.au:mail.optusnet.com.au:993
+ozemail.com.au:imap.ozemail.com.au:993
+iinet.net.au:imap.iinet.net.au:993
+westnet.com.au:imap.westnet.com.au:993
+internode.on.net:imap.internode.on.net:993
+tpg.com.au:imap.tpg.com.au:993
+dodo.com.au:imap.dodo.com.au:993
+yahoo.com.au:imap.mail.yahoo.com:993
+hotmail.com.au:outlook.office365.com:993
+live.com.au:outlook.office365.com:993
+outlook.com.au:outlook.office365.com:993
+chariot.net.au:imap.chariot.net.au:993
+netspace.net.au:imap.netspace.net.au:993
+primus.com.au:imap.primus.com.au:993
+adam.com.au:imap.adam.com.au:993
+eftel.net.au:imap.eftel.net.au:993
+exemail.com.au:imap.exemail.com.au:993
+aanet.com.au:imap.aanet.com.au:993
+netconnect.com.au:imap.netconnect.com.au:993
+
+# ================================================================
+# NEW ZEALAND (Complete)
+# ================================================================
+xtra.co.nz:imap.xtra.co.nz:993
+spark.co.nz:imap.xtra.co.nz:993
+slingshot.co.nz:imap.slingshot.co.nz:993
+vodafone.co.nz:imap.vodafone.co.nz:993
+clear.net.nz:imap.clear.net.nz:993
+yahoo.co.nz:imap.mail.yahoo.com:993
+hotmail.co.nz:outlook.office365.com:993
+orcon.net.nz:imap.orcon.net.nz:993
+ihug.co.nz:imap.ihug.co.nz:993
+paradise.net.nz:imap.paradise.net.nz:993
+snap.net.nz:imap.snap.net.nz:993
+woosh.co.nz:imap.woosh.co.nz:993
+iconz.co.nz:imap.iconz.co.nz:993
+actrix.co.nz:imap.actrix.co.nz:993
+
+# ================================================================
+# SOUTH AFRICA (Complete)
+# ================================================================
+webmail.co.za:imap.webmail.co.za:993
+mweb.co.za:imap.mweb.co.za:993
+telkomsa.net:imap.telkomsa.net:993
+vodamail.co.za:imap.vodamail.co.za:993
+yahoo.co.za:imap.mail.yahoo.com:993
+hotmail.co.za:outlook.office365.com:993
+live.co.za:outlook.office365.com:993
+absamail.co.za:imap.absamail.co.za:993
+cybersmart.co.za:imap.cybersmart.co.za:993
+iafrica.com:imap.iafrica.com:993
+intekom.co.za:imap.intekom.co.za:993
+sai.co.za:imap.sai.co.za:993
+global.co.za:imap.global.co.za:993
+icon.co.za:imap.icon.co.za:993
+lantic.net:imap.lantic.net:993
+netactive.co.za:imap.netactive.co.za:993
+worldonline.co.za:imap.worldonline.co.za:993
+yebo.co.za:imap.yebo.co.za:993
+
+# ================================================================
+# ISRAEL - ישראל (Complete)
+# ================================================================
+walla.com:imap.walla.com:993
+walla.co.il:imap.walla.co.il:993
+bezeqint.net:imap.bezeqint.net:993
+netvision.net.il:imap.netvision.net.il:993
+013.net:imap.013.net:993
+013.net.il:imap.013.net.il:993
+012.net.il:imap.012.net.il:993
+yahoo.co.il:imap.mail.yahoo.com:993
+hotmail.co.il:outlook.office365.com:993
+barak.net.il:imap.barak.net.il:993
+actcom.net.il:imap.actcom.net.il:993
+zahav.net.il:imap.zahav.net.il:993
+smile.net.il:imap.smile.net.il:993
+inter.net.il:imap.inter.net.il:993
+isdn.net.il:imap.isdn.net.il:993
+
+# ================================================================
+# MIDDLE EAST (UAE, Saudi, Egypt, Kuwait, Qatar, Bahrain, Oman, Jordan, Lebanon)
+# ================================================================
+# UAE
+emirates.net.ae:imap.emirates.net.ae:993
+eim.ae:imap.eim.ae:993
+etisalat.ae:imap.etisalat.ae:993
+du.ae:imap.du.ae:993
+hotmail.ae:outlook.office365.com:993
+yahoo.ae:imap.mail.yahoo.com:993
+
+# Saudi Arabia
+yahoo.com.sa:imap.mail.yahoo.com:993
+hotmail.com.sa:outlook.office365.com:993
+stc.com.sa:imap.stc.com.sa:993
+mobily.com.sa:imap.mobily.com.sa:993
+zain.com.sa:imap.zain.com.sa:993
+saudimail.com:imap.saudimail.com:993
+awalnet.net.sa:imap.awalnet.net.sa:993
+
+# Egypt
+yahoo.com.eg:imap.mail.yahoo.com:993
+hotmail.com.eg:outlook.office365.com:993
+link.net:imap.link.net:993
+tedata.net.eg:imap.tedata.net.eg:993
+menanet.net:imap.menanet.net:993
+masr.net:imap.masr.net:993
+egyptmail.com:imap.egyptmail.com:993
+soficom.net:imap.soficom.net:993
+gega.net:imap.gega.net:993
+
+# Kuwait
+qualitynet.net:imap.qualitynet.net:993
+fasttelco.net:imap.fasttelco.net:993
+gulfnet.ws:imap.gulfnet.ws:993
+kems.net:imap.kems.net:993
+
+# Qatar
+qatar.net.qa:imap.qatar.net.qa:993
+qtel.com.qa:imap.qtel.com.qa:993
+ooredoo.qa:imap.ooredoo.qa:993
+
+# Bahrain
+batelco.com.bh:imap.batelco.com.bh:993
+batelco.bh:imap.batelco.com.bh:993
+
+# Oman
+omantel.net.om:imap.omantel.net.om:993
+gto.net.om:imap.gto.net.om:993
+
+# Jordan
+orange.jo:imap.orange.jo:993
+wanadoo.jo:imap.wanadoo.jo:993
+index.com.jo:imap.index.com.jo:993
+go.com.jo:imap.go.com.jo:993
+
+# Lebanon
+cyberia.net.lb:imap.cyberia.net.lb:993
+terra.net.lb:imap.terra.net.lb:993
+dm.net.lb:imap.dm.net.lb:993
+destination.com.lb:imap.destination.com.lb:993
+inco.com.lb:imap.inco.com.lb:993
+
+# ================================================================
+# NORTH AFRICA (Morocco, Algeria, Tunisia, Libya)
+# ================================================================
+# Morocco
+menara.ma:imap.menara.ma:993
+iam.ma:imap.iam.ma:993
+mtds.com:imap.mtds.com:993
+wanadoo.net.ma:imap.wanadoo.net.ma:993
+caramail.ma:imap.caramail.ma:993
+casanet.net.ma:imap.casanet.net.ma:993
+hotmail.ma:outlook.office365.com:993
+live.ma:outlook.office365.com:993
+
+# Algeria
+djaweb.dz:imap.djaweb.dz:993
+eepad.dz:imap.eepad.dz:993
+wissal.dz:imap.wissal.dz:993
+fawri.dz:imap.fawri.dz:993
+anis.dz:imap.anis.dz:993
+cerist.dz:imap.cerist.dz:993
+mobizone.dz:imap.mobizone.dz:993
+
+# Tunisia
+topnet.tn:imap.topnet.tn:993
+gnet.tn:imap.gnet.tn:993
+planet.tn:imap.planet.tn:993
+tunet.tn:imap.tunet.tn:993
+hexabyte.tn:imap.hexabyte.tn:993
+ati.tn:imap.ati.tn:993
+ooredoo.tn:imap.ooredoo.tn:993
+
+# Libya
+lttnet.ly:imap.lttnet.ly:993
+aljeel.ly:imap.aljeel.ly:993
+libyana.ly:imap.libyana.ly:993
+
+# ================================================================
+# SOUTHEAST ASIA (Indonesia, Malaysia, Thailand, Vietnam, Philippines, Singapore)
+# ================================================================
+# Indonesia
+yahoo.co.id:imap.mail.yahoo.com:993
+plasa.com:imap.plasa.com:993
+telkom.net:imap.telkom.net:993
+indosat.net.id:imap.indosat.net.id:993
+centrin.net.id:imap.centrin.net.id:993
+cbn.net.id:imap.cbn.net.id:993
+indo.net.id:imap.indo.net.id:993
+rad.net.id:imap.rad.net.id:993
+wasantara.net.id:imap.wasantara.net.id:993
+hotmail.co.id:outlook.office365.com:993
+
+# Malaysia
+yahoo.com.my:imap.mail.yahoo.com:993
+hotmail.com.my:outlook.office365.com:993
+tm.net.my:imap.tm.net.my:993
+streamyx.com:imap.streamyx.com:993
+jaring.my:imap.jaring.my:993
+maxis.net.my:imap.maxis.net.my:993
+pd.jaring.my:imap.pd.jaring.my:993
+digi.com.my:imap.digi.com.my:993
+time.net.my:imap.time.net.my:993
+celcom.net.my:imap.celcom.net.my:993
+
+# Thailand
+yahoo.co.th:imap.mail.yahoo.com:993
+hotmail.co.th:outlook.office365.com:993
+sanook.com:imap.sanook.com:993
+thaimail.com:imap.thaimail.com:993
+asiamail.com:imap.asiamail.com:993
+chaiyo.com:imap.chaiyo.com:993
+loxinfo.co.th:imap.loxinfo.co.th:993
+ksc.th.com:imap.ksc.th.com:993
+truemail.co.th:imap.truemail.co.th:993
+ais.co.th:imap.ais.co.th:993
+
+# Vietnam
+yahoo.com.vn:imap.mail.yahoo.com:993
+vnn.vn:imap.vnn.vn:993
+fpt.vn:imap.fpt.vn:993
+hcm.vnn.vn:imap.hcm.vnn.vn:993
+hn.vnn.vn:imap.hn.vnn.vn:993
+netnam.vn:imap.netnam.vn:993
+saigonnet.vn:imap.saigonnet.vn:993
+
+# Philippines
+yahoo.com.ph:imap.mail.yahoo.com:993
+pldtdsl.net:imap.pldtdsl.net:993
+globe.com.ph:imap.globe.com.ph:993
+smart.com.ph:imap.smart.com.ph:993
+info.com.ph:imap.info.com.ph:993
+mozcom.com:imap.mozcom.com:993
+i-manila.com.ph:imap.i-manila.com.ph:993
+skyinet.net:imap.skyinet.net:993
+pacific.net.ph:imap.pacific.net.ph:993
+bayantel.com.ph:imap.bayantel.com.ph:993
+
+# Singapore
+yahoo.com.sg:imap.mail.yahoo.com:993
+hotmail.sg:outlook.office365.com:993
+singnet.com.sg:imap.singnet.com.sg:993
+starhub.net.sg:imap.starhub.net.sg:993
+pacific.net.sg:imap.pacific.net.sg:993
+cyberway.com.sg:imap.cyberway.com.sg:993
+magix.com.sg:imap.magix.com.sg:993
+m1.com.sg:imap.m1.com.sg:993
+
+# ================================================================
+# EAST ASIA (Hong Kong, Taiwan)
+# ================================================================
+# Hong Kong
+yahoo.com.hk:imap.mail.yahoo.com:993
+hotmail.com.hk:outlook.office365.com:993
+netvigator.com:imap.netvigator.com:993
+pccw.com:imap.pccw.com:993
+hkstar.com:imap.hkstar.com:993
+ctimail.com:imap.ctimail.com:993
+i-cable.com:imap.i-cable.com:993
+hutchcity.com:imap.hutchcity.com:993
+
+# Taiwan
+yahoo.com.tw:imap.mail.yahoo.com:993
+hotmail.com.tw:outlook.office365.com:993
+hinet.net:imap.hinet.net:993
+pchome.com.tw:imap.pchome.com.tw:993
+seed.net.tw:imap.seed.net.tw:993
+ms1.hinet.net:imap.ms1.hinet.net:993
+ms2.hinet.net:imap.ms2.hinet.net:993
+ms3.hinet.net:imap.ms3.hinet.net:993
+kimo.com.tw:imap.kimo.com.tw:993
+so-net.tw:imap.so-net.tw:993
+tpts5.seed.net.tw:imap.tpts5.seed.net.tw:993
+
+# ================================================================
+# CANADA (Complete)
+# ================================================================
+yahoo.ca:imap.mail.yahoo.com:993
+hotmail.ca:outlook.office365.com:993
+live.ca:outlook.office365.com:993
+outlook.ca:outlook.office365.com:993
+rogers.com:imap.rogers.com:993
+shaw.ca:imap.shaw.ca:993
+sympatico.ca:imap.sympatico.ca:993
+bell.net:imap.bell.net:993
+bellnet.ca:imap.bell.net:993
+telus.net:imap.telus.net:993
+telusplanet.net:imap.telus.net:993
+videotron.ca:imap.videotron.ca:993
+cogeco.ca:imap.cogeco.ca:993
+cogeco.net:imap.cogeco.ca:993
+sasktel.net:imap.sasktel.net:993
+eastlink.ca:imap.eastlink.ca:993
+execulink.com:imap.execulink.com:993
+mts.net:imap.mts.net:993
+look.ca:imap.look.ca:993
+persona.ca:imap.persona.ca:993
+nb.sympatico.ca:imap.nb.sympatico.ca:993
+ns.sympatico.ca:imap.ns.sympatico.ca:993
+primus.ca:imap.primus.ca:993
+tbaytel.net:imap.tbaytel.net:993
+uniserve.com:imap.uniserve.com:993
+vianet.ca:imap.vianet.ca:993
+xplornet.ca:imap.xplornet.ca:993
+xplornet.com:imap.xplornet.ca:993
+
+# ================================================================
+# IRELAND - ÉIRE (Complete)
+# ================================================================
+eircom.net:imap.eircom.net:993
+eir.ie:imap.eir.ie:993
+vodafone.ie:imap.vodafone.ie:993
+yahoo.ie:imap.mail.yahoo.com:993
+hotmail.ie:outlook.office365.com:993
+live.ie:outlook.office365.com:993
+upc.ie:imap.upc.ie:993
+ntlworld.ie:imap.ntlworld.ie:993
+iol.ie:imap.iol.ie:993
+indigo.ie:imap.indigo.ie:993
+ireland.com:imap.ireland.com:993
+esatclear.ie:imap.esatclear.ie:993
+oceanfree.net:imap.oceanfree.net:993
+tinet.ie:imap.tinet.ie:993
+
+# ================================================================
+# OTHER EUROPEAN COUNTRIES
+# ================================================================
+# Slovakia
+atlas.sk:imap.atlas.sk:993
+centrum.sk:imap.centrum.sk:993
+post.sk:imap.post.sk:993
+zoznam.sk:imap.zoznam.sk:993
+szm.sk:imap.szm.sk:993
+azet.sk:imap.azet.sk:993
+
+# Slovenia
+siol.net:imap.siol.net:993
+volja.net:imap.volja.net:993
+t-2.net:imap.t-2.net:993
+amis.net:imap.amis.net:993
+
+# Croatia
+net.hr:imap.net.hr:993
+zg.t-com.hr:imap.zg.t-com.hr:993
+iskon.hr:imap.iskon.hr:993
+globalnet.hr:imap.globalnet.hr:993
+
+# Serbia
+sezampro.rs:imap.sezampro.rs:993
+eunet.rs:imap.eunet.rs:993
+nadlanu.com:imap.nadlanu.com:993
+parabola.rs:imap.parabola.rs:993
+
+# Bulgaria
+abv.bg:imap.abv.bg:993
+mail.bg:imap.mail.bg:993
+dir.bg:imap.dir.bg:993
+gbg.bg:imap.gbg.bg:993
+mbox.bg:imap.mbox.bg:993
+
+# Latvia
+inbox.lv:imap.inbox.lv:993
+one.lv:imap.one.lv:993
+mail.lv:imap.mail.lv:993
+apollo.lv:imap.apollo.lv:993
+
+# Lithuania
+takas.lt:imap.takas.lt:993
+one.lt:imap.one.lt:993
+mail.lt:imap.mail.lt:993
+zebra.lt:imap.zebra.lt:993
+delfi.lt:imap.delfi.lt:993
+
+# Estonia
+hot.ee:imap.hot.ee:993
+mail.ee:imap.mail.ee:993
+online.ee:imap.online.ee:993
+neti.ee:imap.neti.ee:993
+
+# ================================================================
+# LATIN AMERICA (Peru, Venezuela, Ecuador, Bolivia, Paraguay, Uruguay)
+# ================================================================
+# Peru
+yahoo.com.pe:imap.mail.yahoo.com:993
+hotmail.com.pe:outlook.office365.com:993
+terra.com.pe:imap.terra.com.pe:993
+speedy.com.pe:imap.speedy.com.pe:993
+telefonica.net.pe:imap.telefonica.net.pe:993
+
+# Venezuela
+yahoo.com.ve:imap.mail.yahoo.com:993
+hotmail.com.ve:outlook.office365.com:993
+cantv.net:imap.cantv.net:993
+telcel.net.ve:imap.telcel.net.ve:993
+supercable.net.ve:imap.supercable.net.ve:993
+
+# Ecuador
+yahoo.com.ec:imap.mail.yahoo.com:993
+hotmail.com.ec:outlook.office365.com:993
+andinanet.net:imap.andinanet.net:993
+ecuanex.net.ec:imap.ecuanex.net.ec:993
+puntonet.ec:imap.puntonet.ec:993
+
+# Paraguay
+personal.com.py:imap.personal.com.py:993
+rieder.net.py:imap.rieder.net.py:993
+tigo.com.py:imap.tigo.com.py:993
+
+# Uruguay
+adinet.com.uy:imap.adinet.com.uy:993
+chasque.net:imap.chasque.net:993
+dedicado.net.uy:imap.dedicado.net.uy:993
+netgate.com.uy:imap.netgate.com.uy:993
+
+# Bolivia
+entelnet.bo:imap.entelnet.bo:993
+cotas.com.bo:imap.cotas.com.bo:993
+supernet.com.bo:imap.supernet.com.bo:993
+
+# ================================================================
+# CARIBBEAN (Cuba, Dominican Republic, Puerto Rico, Jamaica)
+# ================================================================
+# Dominican Republic
+codetel.net.do:imap.codetel.net.do:993
+tricom.net:imap.tricom.net:993
+verizon.net.do:imap.verizon.net.do:993
+
+# Puerto Rico
+centennialpr.net:imap.centennialpr.net:993
+libertypr.net:imap.libertypr.net:993
+prtc.net:imap.prtc.net:993
+
+# Jamaica
+cwjamaica.com:imap.cwjamaica.com:993
+kasnet.com:imap.kasnet.com:993
+
+# ================================================================
+# AFRICA (Nigeria, Kenya, Ghana, Senegal)
+# ================================================================
+# Nigeria
+yahoo.com.ng:imap.mail.yahoo.com:993
+hyperia.com:imap.hyperia.com:993
+linkserve.com.ng:imap.linkserve.com.ng:993
+
+# Kenya
+yahoo.co.ke:imap.mail.yahoo.com:993
+wananchi.com:imap.wananchi.com:993
+africaonline.co.ke:imap.africaonline.co.ke:993
+
+# Ghana
+yahoo.com.gh:imap.mail.yahoo.com:993
+africaonline.com.gh:imap.africaonline.com.gh:993
+
+# Senegal
+orange.sn:imap.orange.sn:993
+arc.sn:imap.arc.sn:993
+
+# ================================================================
+# PAKISTAN, BANGLADESH, SRI LANKA
+# ================================================================
+# Pakistan
+yahoo.com.pk:imap.mail.yahoo.com:993
+hotmail.com.pk:outlook.office365.com:993
+cyber.net.pk:imap.cyber.net.pk:993
+comsats.net.pk:imap.comsats.net.pk:993
+brain.net.pk:imap.brain.net.pk:993
+ptcl.net.pk:imap.ptcl.net.pk:993
+
+# Bangladesh
+yahoo.com.bd:imap.mail.yahoo.com:993
+dhaka.net:imap.dhaka.net:993
+citechco.net:imap.citechco.net:993
+bdonline.com:imap.bdonline.com:993
+gramweb.net:imap.gramweb.net:993
+
+# Sri Lanka
+yahoo.co.lk:imap.mail.yahoo.com:993
+slt.lk:imap.slt.lk:993
+lankabell.net:imap.lankabell.net:993
+eureka.lk:imap.eureka.lk:993
+dialog.lk:imap.dialog.lk:993
+
+# ================================================================
+# EXTENDED NORWAY - NORGE (50+ providers)
+# ================================================================
+nextgentel.no:imap.nextgentel.no:993
+altibox.no:imap.altibox.no:993
+lyse.no:imap.lyse.no:993
+epost.no:imap.epost.no:993
+mailbox.no:imap.mailbox.no:993
+gmail.no:imap.gmail.no:993
+tiscali.no:imap.tiscali.no:993
+sol.no:imap.sol.no:993
+telepost.no:imap.telepost.no:993
+telepost.net:imap.telepost.net:993
+telepost.com:imap.telepost.com:993
+netcom.no:imap.netcom.no:993
+tele.no:imap.tele.no:993
+ventelo.no:imap.ventelo.no:993
+bbnett.no:imap.bbnett.no:993
+powertech.no:imap.powertech.no:993
+telefiber.no:imap.telefiber.no:993
+fiber.no:imap.fiber.no:993
+homenet.no:imap.homenet.no:993
+eidsiva.net:imap.eidsiva.net:993
+enivest.no:imap.enivest.no:993
+loqal.no:imap.loqal.no:993
+signal.no:imap.signal.no:993
+catch.no:imap.catch.no:993
+nrk.no:imap.nrk.no:993
+tv2.no:imap.tv2.no:993
+vg.no:imap.vg.no:993
+aftenposten.no:imap.aftenposten.no:993
+dagbladet.no:imap.dagbladet.no:993
+ringerike.net:imap.ringerike.net:993
+halden.net:imap.halden.net:993
+lorenskog.net:imap.lorenskog.net:993
+ski.net:imap.ski.net:993
+rana.net:imap.rana.net:993
+alta.net:imap.alta.net:993
+tromso.net:imap.tromso.net:993
+bodo.net:imap.bodo.net:993
+bergen.net:imap.bergen.net:993
+stavanger.net:imap.stavanger.net:993
+trondheim.net:imap.trondheim.net:993
+kristiansand.net:imap.kristiansand.net:993
+drammen.net:imap.drammen.net:993
+fredrikstad.net:imap.fredrikstad.net:993
+hamar.net:imap.hamar.net:993
+sarpsborg.net:imap.sarpsborg.net:993
+lillehammer.net:imap.lillehammer.net:993
+sandnes.net:imap.sandnes.net:993
+haugesund.net:imap.haugesund.net:993
+moss.net:imap.moss.net:993
+toensberg.net:imap.toensberg.net:993
+sandefjord.net:imap.sandefjord.net:993
+
+# ================================================================
+# EXTENDED AFRICA (200+ providers)
+# ================================================================
+# MOROCCO Extended
+maroc.ma:imap.maroc.ma:993
+inwi.ma:imap.inwi.ma:993
+meditel.ma:imap.meditel.ma:993
+orange.ma:imap.orange.ma:993
+wana.ma:imap.wana.ma:993
+fes.ma:imap.fes.ma:993
+tanger.ma:imap.tanger.ma:993
+rabat.ma:imap.rabat.ma:993
+casablanca.ma:imap.casablanca.ma:993
+marrakech.ma:imap.marrakech.ma:993
+agadir.ma:imap.agadir.ma:993
+oujda.ma:imap.oujda.ma:993
+
+# ALGERIA Extended
+algerie.com:imap.algerie.com:993
+alger.dz:imap.alger.dz:993
+oran.dz:imap.oran.dz:993
+constantine.dz:imap.constantine.dz:993
+annaba.dz:imap.annaba.dz:993
+batna.dz:imap.batna.dz:993
+setif.dz:imap.setif.dz:993
+blida.dz:imap.blida.dz:993
+chlef.dz:imap.chlef.dz:993
+algerie.dz:imap.algerie.dz:993
+ooredoo.dz:imap.ooredoo.dz:993
+mobilis.dz:imap.mobilis.dz:993
+
+# TUNISIA Extended
+tunisie.tn:imap.tunisie.tn:993
+tunis.tn:imap.tunis.tn:993
+sfax.tn:imap.sfax.tn:993
+sousse.tn:imap.sousse.tn:993
+bizerte.tn:imap.bizerte.tn:993
+kairouan.tn:imap.kairouan.tn:993
+gabes.tn:imap.gabes.tn:993
+
+# EGYPT Extended
+egypt.com:imap.egypt.com:993
+cairo.com:imap.cairo.com:993
+cairo.eg:imap.cairo.eg:993
+alexandria.eg:imap.alexandria.eg:993
+giza.eg:imap.giza.eg:993
+orange.eg:imap.orange.eg:993
+vodafone.eg:imap.vodafone.eg:993
+etisalat.eg:imap.etisalat.eg:993
+we.eg:imap.we.eg:993
+nilesat.eg:imap.nilesat.eg:993
+
+# NIGERIA Extended
+nigeria.com:imap.nigeria.com:993
+naija.ng:imap.naija.ng:993
+mtn.ng:imap.mtn.ng:993
+airtel.ng:imap.airtel.ng:993
+glo.ng:imap.glo.ng:993
+9mobile.ng:imap.9mobile.ng:993
+etisalat.ng:imap.etisalat.ng:993
+swift.ng:imap.swift.ng:993
+ipnx.ng:imap.ipnx.ng:993
+spectranet.ng:imap.spectranet.ng:993
+cobranet.ng:imap.cobranet.ng:993
+lagos.ng:imap.lagos.ng:993
+abuja.ng:imap.abuja.ng:993
+kano.ng:imap.kano.ng:993
+ibadan.ng:imap.ibadan.ng:993
+port-harcourt.ng:imap.port-harcourt.ng:993
+
+# KENYA Extended
+kenya.com:imap.kenya.com:993
+safaricom.ke:imap.safaricom.ke:993
+airtel.ke:imap.airtel.ke:993
+telkom.ke:imap.telkom.ke:993
+faiba.ke:imap.faiba.ke:993
+zuku.ke:imap.zuku.ke:993
+nairobi.ke:imap.nairobi.ke:993
+mombasa.ke:imap.mombasa.ke:993
+kisumu.ke:imap.kisumu.ke:993
+nakuru.ke:imap.nakuru.ke:993
+
+# SOUTH AFRICA Extended
+sa.com:imap.sa.com:993
+cell-c.co.za:imap.cell-c.co.za:993
+rain.co.za:imap.rain.co.za:993
+afrihost.co.za:imap.afrihost.co.za:993
+webafrica.co.za:imap.webafrica.co.za:993
+axxess.co.za:imap.axxess.co.za:993
+rsaweb.co.za:imap.rsaweb.co.za:993
+vox.co.za:imap.vox.co.za:993
+metrofibre.co.za:imap.metrofibre.co.za:993
+frogfoot.co.za:imap.frogfoot.co.za:993
+openserve.co.za:imap.openserve.co.za:993
+johannesburg.co.za:imap.johannesburg.co.za:993
+capetown.co.za:imap.capetown.co.za:993
+durban.co.za:imap.durban.co.za:993
+pretoria.co.za:imap.pretoria.co.za:993
+
+# GHANA Extended
+ghana.com:imap.ghana.com:993
+mtn.gh:imap.mtn.gh:993
+vodafone.gh:imap.vodafone.gh:993
+airtel.gh:imap.airtel.gh:993
+tigo.gh:imap.tigo.gh:993
+glo.gh:imap.glo.gh:993
+busy.gh:imap.busy.gh:993
+surfline.gh:imap.surfline.gh:993
+accra.gh:imap.accra.gh:993
+kumasi.gh:imap.kumasi.gh:993
+takoradi.gh:imap.takoradi.gh:993
+
+# SENEGAL Extended
+senegal.sn:imap.senegal.sn:993
+sonatel.sn:imap.sonatel.sn:993
+free.sn:imap.free.sn:993
+expresso.sn:imap.expresso.sn:993
+dakar.sn:imap.dakar.sn:993
+thies.sn:imap.thies.sn:993
+
+# IVORY COAST
+ivoire.ci:imap.ivoire.ci:993
+orange.ci:imap.orange.ci:993
+mtn.ci:imap.mtn.ci:993
+moov.ci:imap.moov.ci:993
+abidjan.ci:imap.abidjan.ci:993
+
+# CAMEROON
+cameroun.cm:imap.cameroun.cm:993
+orange.cm:imap.orange.cm:993
+mtn.cm:imap.mtn.cm:993
+camtel.cm:imap.camtel.cm:993
+nexttel.cm:imap.nexttel.cm:993
+douala.cm:imap.douala.cm:993
+yaounde.cm:imap.yaounde.cm:993
+
+# ETHIOPIA
+ethiopia.et:imap.ethiopia.et:993
+ethionet.et:imap.ethionet.et:993
+telecom.et:imap.telecom.et:993
+addis.et:imap.addis.et:993
+
+# TANZANIA
+tanzania.tz:imap.tanzania.tz:993
+vodacom.tz:imap.vodacom.tz:993
+airtel.tz:imap.airtel.tz:993
+tigo.tz:imap.tigo.tz:993
+halotel.tz:imap.halotel.tz:993
+ttcl.tz:imap.ttcl.tz:993
+dar.tz:imap.dar.tz:993
+zanzibar.tz:imap.zanzibar.tz:993
+
+# UGANDA
+uganda.ug:imap.uganda.ug:993
+mtn.ug:imap.mtn.ug:993
+airtel.ug:imap.airtel.ug:993
+utl.ug:imap.utl.ug:993
+africell.ug:imap.africell.ug:993
+smile.ug:imap.smile.ug:993
+kampala.ug:imap.kampala.ug:993
+
+# ZIMBABWE
+zimbabwe.zw:imap.zimbabwe.zw:993
+econet.zw:imap.econet.zw:993
+netone.zw:imap.netone.zw:993
+telecel.zw:imap.telecel.zw:993
+telone.zw:imap.telone.zw:993
+harare.zw:imap.harare.zw:993
+bulawayo.zw:imap.bulawayo.zw:993
+
+# ZAMBIA
+zambia.zm:imap.zambia.zm:993
+mtn.zm:imap.mtn.zm:993
+airtel.zm:imap.airtel.zm:993
+zamtel.zm:imap.zamtel.zm:993
+lusaka.zm:imap.lusaka.zm:993
+
+# ANGOLA
+angola.ao:imap.angola.ao:993
+unitel.ao:imap.unitel.ao:993
+movicel.ao:imap.movicel.ao:993
+angolatelecom.ao:imap.angolatelecom.ao:993
+luanda.ao:imap.luanda.ao:993
+
+# MOZAMBIQUE
+mozambique.mz:imap.mozambique.mz:993
+mcel.mz:imap.mcel.mz:993
+vodacom.mz:imap.vodacom.mz:993
+movitel.mz:imap.movitel.mz:993
+maputo.mz:imap.maputo.mz:993
+
+# RWANDA
+rwanda.rw:imap.rwanda.rw:993
+mtn.rw:imap.mtn.rw:993
+airtel.rw:imap.airtel.rw:993
+kigali.rw:imap.kigali.rw:993
+
+# MALI
+mali.ml:imap.mali.ml:993
+orange.ml:imap.orange.ml:993
+malitel.ml:imap.malitel.ml:993
+bamako.ml:imap.bamako.ml:993
+
+# BURKINA FASO
+bf.bf:imap.bf.bf:993
+orange.bf:imap.orange.bf:993
+onatel.bf:imap.onatel.bf:993
+ouagadougou.bf:imap.ouagadougou.bf:993
+
+# CONGO DRC
+congo.cd:imap.congo.cd:993
+vodacom.cd:imap.vodacom.cd:993
+airtel.cd:imap.airtel.cd:993
+orange.cd:imap.orange.cd:993
+kinshasa.cd:imap.kinshasa.cd:993
+
+# CONGO BRAZZAVILLE
+congo.cg:imap.congo.cg:993
+mtn.cg:imap.mtn.cg:993
+airtel.cg:imap.airtel.cg:993
+brazzaville.cg:imap.brazzaville.cg:993
+
+# MAURITIUS
+mauritius.mu:imap.mauritius.mu:993
+orange.mu:imap.orange.mu:993
+emtel.mu:imap.emtel.mu:993
+myt.mu:imap.myt.mu:993
+portlouis.mu:imap.portlouis.mu:993
+
+# MADAGASCAR
+madagascar.mg:imap.madagascar.mg:993
+orange.mg:imap.orange.mg:993
+airtel.mg:imap.airtel.mg:993
+telma.mg:imap.telma.mg:993
+antananarivo.mg:imap.antananarivo.mg:993
+
+# BOTSWANA
+botswana.bw:imap.botswana.bw:993
+orange.bw:imap.orange.bw:993
+mascom.bw:imap.mascom.bw:993
+btc.bw:imap.btc.bw:993
+gaborone.bw:imap.gaborone.bw:993
+
+# NAMIBIA
+namibia.na:imap.namibia.na:993
+mtc.na:imap.mtc.na:993
+telecom.na:imap.telecom.na:993
+windhoek.na:imap.windhoek.na:993
+
+
+# ================================================================
+# EXTENDED ASIA (300+ providers)
+# ================================================================
+# JAPAN Extended
+yahoo.ne.jp:imap.mail.yahoo.co.jp:993
+gmail.jp:imap.gmail.jp:993
+icloud.jp:imap.icloud.jp:993
+ezweb.ne.jp:imap.ezweb.ne.jp:993
+kcn.ne.jp:imap.kcn.ne.jp:993
+kinet.ne.jp:imap.kinet.ne.jp:993
+kdn.ne.jp:imap.kdn.ne.jp:993
+kinet-tv.ne.jp:imap.kinet-tv.ne.jp:993
+jtw.zaq.ne.jp:imap.jtw.zaq.ne.jp:993
+zaq.ne.jp:imap.zaq.ne.jp:993
+zpost.plala.or.jp:imap.zpost.plala.or.jp:993
+email.plala.or.jp:imap.email.plala.or.jp:993
+cocoa.plala.or.jp:imap.cocoa.plala.or.jp:993
+tiki.ne.jp:imap.tiki.ne.jp:993
+tcn-catv.ne.jp:imap.tcn-catv.ne.jp:993
+catv296.ne.jp:imap.catv296.ne.jp:993
+odn.ne.jp:imap.odn.ne.jp:993
+k-opti.com:imap.k-opti.com:993
+eonet.ne.jp:imap.eonet.ne.jp:993
+uqmobile.jp:imap.uqmobile.jp:993
+kddi.com:imap.kddi.com:993
+auone-net.jp:imap.auone-net.jp:993
+mineo.jp:imap.mineo.jp:993
+iijmio.jp:imap.iijmio.jp:993
+ocn.ad.jp:imap.ocn.ad.jp:993
+nttpc.ne.jp:imap.nttpc.ne.jp:993
+samba.ne.jp:imap.samba.ne.jp:993
+nct9.ne.jp:imap.nct9.ne.jp:993
+ybb.ne.jp:imap.ybb.ne.jp:993
+mbp.nifty.com:imap.mbp.nifty.com:993
+mnx.ne.jp:imap.mnx.ne.jp:993
+hotmail.co.jp:outlook.office365.com:993
+live.jp:outlook.office365.com:993
+outlook.jp:outlook.office365.com:993
+
+# CHINA Extended
+tom.com:imap.tom.com:993
+netease.com:imap.netease.com:993
+vip.163.com:imap.vip.163.com:993
+vip.126.com:imap.vip.126.com:993
+vip.qq.com:imap.vip.qq.com:993
+qq.cn:imap.qq.cn:993
+qiye.163.com:imap.qiye.163.com:993
+mail.10086.cn:imap.mail.10086.cn:993
+chinamobile.com:imap.chinamobile.com:993
+chinatelecom.cn:imap.chinatelecom.cn:993
+chinaunicom.cn:imap.chinaunicom.cn:993
+189mail.com:imap.189mail.com:993
+wonmail.com:imap.wonmail.com:993
+tianya.cn:imap.tianya.cn:993
+vip.tom.com:imap.vip.tom.com:993
+2980.com:imap.2980.com:993
+msn.cn:imap.msn.cn:993
+51.com:imap.51.com:993
+xinhuanet.com:imap.xinhuanet.com:993
+cctv.com:imap.cctv.com:993
+people.com.cn:imap.people.com.cn:993
+cnmail.net:imap.cnmail.net:993
+yahoo.cn:imap.yahoo.cn:993
+beijing.cn:imap.beijing.cn:993
+shanghai.cn:imap.shanghai.cn:993
+guangzhou.cn:imap.guangzhou.cn:993
+shenzhen.cn:imap.shenzhen.cn:993
+chengdu.cn:imap.chengdu.cn:993
+hangzhou.cn:imap.hangzhou.cn:993
+
+# SOUTH KOREA Extended
+naver.co.kr:imap.naver.co.kr:993
+hanmail.co.kr:imap.hanmail.co.kr:993
+kakao.co.kr:imap.kakao.co.kr:993
+nate.co.kr:imap.nate.co.kr:993
+sk.com:imap.sk.com:993
+kt.com:imap.kt.com:993
+lgt.co.kr:imap.lgt.co.kr:993
+sktelecom.com:imap.sktelecom.com:993
+olleh.com:imap.olleh.com:993
+uplus.co.kr:imap.uplus.co.kr:993
+samsung.com:imap.samsung.com:993
+lg.com:imap.lg.com:993
+hyundai.co.kr:imap.hyundai.co.kr:993
+seoul.co.kr:imap.seoul.co.kr:993
+busan.co.kr:imap.busan.co.kr:993
+incheon.co.kr:imap.incheon.co.kr:993
+daegu.co.kr:imap.daegu.co.kr:993
+gwangju.co.kr:imap.gwangju.co.kr:993
+daejeon.co.kr:imap.daejeon.co.kr:993
+
+# INDIA Extended
+gmail.co.in:imap.gmail.co.in:993
+jio.com:imap.jio.com:993
+jiomobile.in:imap.jiomobile.in:993
+vodafone.in:imap.vodafone.in:993
+idea.in:imap.idea.in:993
+vi.in:imap.vi.in:993
+tatasky.com:imap.tatasky.com:993
+tatadocomo.com:imap.tatadocomo.com:993
+reliancemail.com:imap.reliancemail.com:993
+rcl.reliance.com:imap.rcl.reliance.com:993
+excitel.com:imap.excitel.com:993
+actcorp.in:imap.actcorp.in:993
+youbroadband.in:imap.youbroadband.in:993
+tikona.in:imap.tikona.in:993
+siti.com:imap.siti.com:993
+den.in:imap.den.in:993
+delhi.in:imap.delhi.in:993
+mumbai.in:imap.mumbai.in:993
+bangalore.in:imap.bangalore.in:993
+chennai.in:imap.chennai.in:993
+kolkata.in:imap.kolkata.in:993
+hyderabad.in:imap.hyderabad.in:993
+pune.in:imap.pune.in:993
+ahmedabad.in:imap.ahmedabad.in:993
+jaipur.in:imap.jaipur.in:993
+
+# INDONESIA Extended
+telkomsel.com:imap.telkomsel.com:993
+indosat.com:imap.indosat.com:993
+xl.co.id:imap.xl.co.id:993
+tri.co.id:imap.tri.co.id:993
+smartfren.com:imap.smartfren.com:993
+axis.co.id:imap.axis.co.id:993
+im3.co.id:imap.im3.co.id:993
+biznet.id:imap.biznet.id:993
+firstmedia.com:imap.firstmedia.com:993
+myrepublic.co.id:imap.myrepublic.co.id:993
+iconnet.id:imap.iconnet.id:993
+mnctv.co.id:imap.mnctv.co.id:993
+jakarta.id:imap.jakarta.id:993
+surabaya.id:imap.surabaya.id:993
+bandung.id:imap.bandung.id:993
+medan.id:imap.medan.id:993
+semarang.id:imap.semarang.id:993
+makassar.id:imap.makassar.id:993
+bali.id:imap.bali.id:993
+
+# MALAYSIA Extended
+unifi.com.my:imap.unifi.com.my:993
+yes.my:imap.yes.my:993
+u.com.my:imap.u.com.my:993
+astro.com.my:imap.astro.com.my:993
+tnb.com.my:imap.tnb.com.my:993
+petronas.com.my:imap.petronas.com.my:993
+maybank.com.my:imap.maybank.com.my:993
+kualalumpur.my:imap.kualalumpur.my:993
+penang.my:imap.penang.my:993
+johor.my:imap.johor.my:993
+sabah.my:imap.sabah.my:993
+sarawak.my:imap.sarawak.my:993
+melaka.my:imap.melaka.my:993
+perak.my:imap.perak.my:993
+
+# THAILAND Extended
+ais.th:imap.ais.th:993
+dtac.co.th:imap.dtac.co.th:993
+truemove.co.th:imap.truemove.co.th:993
+tot.co.th:imap.tot.co.th:993
+cat.co.th:imap.cat.co.th:993
+3bb.co.th:imap.3bb.co.th:993
+ais-fibre.com:imap.ais-fibre.com:993
+trueonline.co.th:imap.trueonline.co.th:993
+bangkok.th:imap.bangkok.th:993
+chiangmai.th:imap.chiangmai.th:993
+phuket.th:imap.phuket.th:993
+pattaya.th:imap.pattaya.th:993
+korat.th:imap.korat.th:993
+
+# VIETNAM Extended
+vnpt.vn:imap.vnpt.vn:993
+viettel.vn:imap.viettel.vn:993
+mobifone.vn:imap.mobifone.vn:993
+vinaphone.vn:imap.vinaphone.vn:993
+vietnamobile.vn:imap.vietnamobile.vn:993
+gmobile.vn:imap.gmobile.vn:993
+spt.vn:imap.spt.vn:993
+cmcti.vn:imap.cmcti.vn:993
+hanoi.vn:imap.hanoi.vn:993
+hochiminh.vn:imap.hochiminh.vn:993
+danang.vn:imap.danang.vn:993
+haiphong.vn:imap.haiphong.vn:993
+cantho.vn:imap.cantho.vn:993
+
+# PHILIPPINES Extended
+pldt.com.ph:imap.pldt.com.ph:993
+globelines.com.ph:imap.globelines.com.ph:993
+converge.com.ph:imap.converge.com.ph:993
+skycable.com.ph:imap.skycable.com.ph:993
+dito.ph:imap.dito.ph:993
+tntsim.com.ph:imap.tntsim.com.ph:993
+sun.com.ph:imap.sun.com.ph:993
+manila.ph:imap.manila.ph:993
+cebu.ph:imap.cebu.ph:993
+davao.ph:imap.davao.ph:993
+quezon.ph:imap.quezon.ph:993
+makati.ph:imap.makati.ph:993
+
+# SINGAPORE Extended
+m1.sg:imap.m1.sg:993
+starhub.sg:imap.starhub.sg:993
+myrepublic.sg:imap.myrepublic.sg:993
+viewqwest.sg:imap.viewqwest.sg:993
+circles.life:imap.circles.life:993
+gomo.sg:imap.gomo.sg:993
+
+# PAKISTAN Extended
+ufone.com.pk:imap.ufone.com.pk:993
+jazz.com.pk:imap.jazz.com.pk:993
+zong.com.pk:imap.zong.com.pk:993
+telenor.pk:imap.telenor.pk:993
+warid.pk:imap.warid.pk:993
+nayatel.com:imap.nayatel.com:993
+stormfiber.com:imap.stormfiber.com:993
+transworld.net.pk:imap.transworld.net.pk:993
+karachi.pk:imap.karachi.pk:993
+lahore.pk:imap.lahore.pk:993
+islamabad.pk:imap.islamabad.pk:993
+rawalpindi.pk:imap.rawalpindi.pk:993
+faisalabad.pk:imap.faisalabad.pk:993
+peshawar.pk:imap.peshawar.pk:993
+
+# BANGLADESH Extended
+grameenphone.com:imap.grameenphone.com:993
+robi.com.bd:imap.robi.com.bd:993
+banglalink.net:imap.banglalink.net:993
+teletalk.com.bd:imap.teletalk.com.bd:993
+airtel.com.bd:imap.airtel.com.bd:993
+btcl.com.bd:imap.btcl.com.bd:993
+link3.net:imap.link3.net:993
+bracnet.net:imap.bracnet.net:993
+dhaka.bd:imap.dhaka.bd:993
+chittagong.bd:imap.chittagong.bd:993
+sylhet.bd:imap.sylhet.bd:993
+khulna.bd:imap.khulna.bd:993
+
+# SRI LANKA Extended
+dialog.lk:imap.dialog.lk:993
+mobitel.lk:imap.mobitel.lk:993
+etisalat.lk:imap.etisalat.lk:993
+hutch.lk:imap.hutch.lk:993
+airtel.lk:imap.airtel.lk:993
+colombo.lk:imap.colombo.lk:993
+kandy.lk:imap.kandy.lk:993
+galle.lk:imap.galle.lk:993
+
+# NEPAL
+nepal.np:imap.nepal.np:993
+ntc.net.np:imap.ntc.net.np:993
+ncell.com.np:imap.ncell.com.np:993
+smartcell.com.np:imap.smartcell.com.np:993
+worldlink.com.np:imap.worldlink.com.np:993
+vianet.com.np:imap.vianet.com.np:993
+subisu.net.np:imap.subisu.net.np:993
+kathmandu.np:imap.kathmandu.np:993
+
+# MYANMAR
+mpt.mm:imap.mpt.mm:993
+ooredoo.mm:imap.ooredoo.mm:993
+telenor.mm:imap.telenor.mm:993
+mytel.mm:imap.mytel.mm:993
+yangon.mm:imap.yangon.mm:993
+mandalay.mm:imap.mandalay.mm:993
+
+# CAMBODIA
+cellcard.com.kh:imap.cellcard.com.kh:993
+smart.com.kh:imap.smart.com.kh:993
+metfone.com.kh:imap.metfone.com.kh:993
+phnompenh.kh:imap.phnompenh.kh:993
+siemreap.kh:imap.siemreap.kh:993
+
+# LAOS
+laotel.com:imap.laotel.com:993
+unitel.la:imap.unitel.la:993
+etl.la:imap.etl.la:993
+vientiane.la:imap.vientiane.la:993
+
+# MONGOLIA
+mobicom.mn:imap.mobicom.mn:993
+unitel.mn:imap.unitel.mn:993
+skytel.mn:imap.skytel.mn:993
+gmobile.mn:imap.gmobile.mn:993
+ulaanbaatar.mn:imap.ulaanbaatar.mn:993
+
+# KAZAKHSTAN
+kcell.kz:imap.kcell.kz:993
+beeline.kz:imap.beeline.kz:993
+tele2.kz:imap.tele2.kz:993
+altel.kz:imap.altel.kz:993
+nur.kz:imap.nur.kz:993
+mail.kz:imap.mail.kz:993
+almaty.kz:imap.almaty.kz:993
+astana.kz:imap.astana.kz:993
+
+# UZBEKISTAN
+ucell.uz:imap.ucell.uz:993
+beeline.uz:imap.beeline.uz:993
+uzmobile.uz:imap.uzmobile.uz:993
+perfectum.uz:imap.perfectum.uz:993
+tashkent.uz:imap.tashkent.uz:993
+samarkand.uz:imap.samarkand.uz:993
+
+# TAIWAN Extended
+twm.com.tw:imap.twm.com.tw:993
+fetnet.net:imap.fetnet.net:993
+cht.com.tw:imap.cht.com.tw:993
+aptg.com.tw:imap.aptg.com.tw:993
+kbro.com.tw:imap.kbro.com.tw:993
+tfn.net.tw:imap.tfn.net.tw:993
+taipei.tw:imap.taipei.tw:993
+kaohsiung.tw:imap.kaohsiung.tw:993
+taichung.tw:imap.taichung.tw:993
+tainan.tw:imap.tainan.tw:993
+
+# HONG KONG Extended
+three.com.hk:imap.three.com.hk:993
+smartone.com:imap.smartone.com:993
+csl.com.hk:imap.csl.com.hk:993
+hkt.com:imap.hkt.com:993
+1010.com.hk:imap.1010.com.hk:993
+cmhk.com:imap.cmhk.com:993
+hkbn.net:imap.hkbn.net:993
+kowloon.hk:imap.kowloon.hk:993
+
+# MACAU
+ctm.net:imap.ctm.net:993
+macau.com:imap.macau.com:993
+
+# BRUNEI
+dst.com.bn:imap.dst.com.bn:993
+imagine.com.bn:imap.imagine.com.bn:993
+progresif.com.bn:imap.progresif.com.bn:993
+
+
+# ================================================================
+# EXTENDED EUROPE (400+ providers)
+# ================================================================
+# FRANCE Extended
+numericable-sfr.fr:imap.numericable-sfr.fr:993
+altice.fr:imap.altice.fr:993
+red-by-sfr.fr:imap.red-by-sfr.fr:993
+sosh.fr:imap.sosh.fr:993
+bytel.fr:imap.bytel.fr:993
+auchan.fr:imap.auchan.fr:993
+leclerc.fr:imap.leclerc.fr:993
+carrefour.fr:imap.carrefour.fr:993
+paris.fr:imap.paris.fr:993
+lyon.fr:imap.lyon.fr:993
+marseille.fr:imap.marseille.fr:993
+toulouse.fr:imap.toulouse.fr:993
+nice.fr:imap.nice.fr:993
+nantes.fr:imap.nantes.fr:993
+strasbourg.fr:imap.strasbourg.fr:993
+montpellier.fr:imap.montpellier.fr:993
+bordeaux.fr:imap.bordeaux.fr:993
+lille.fr:imap.lille.fr:993
+rennes.fr:imap.rennes.fr:993
+
+# GERMANY Extended
+telekom.de:imap.telekom.de:993
+congstar.de:imap.congstar.de:993
+klarmobil.de:imap.klarmobil.de:993
+otelo.de:imap.otelo.de:993
+simyo.de:imap.simyo.de:993
+blau.de:imap.blau.de:993
+yourfone.de:imap.yourfone.de:993
+1und1.com:imap.1und1.com:993
+strato.de:imap.strato.de:993
+hetzner.de:imap.hetzner.de:993
+berlin.de:imap.berlin.de:993
+hamburg.de:imap.hamburg.de:993
+muenchen.de:imap.muenchen.de:993
+koeln.de:imap.koeln.de:993
+frankfurt.de:imap.frankfurt.de:993
+stuttgart.de:imap.stuttgart.de:993
+duesseldorf.de:imap.duesseldorf.de:993
+dortmund.de:imap.dortmund.de:993
+essen.de:imap.essen.de:993
+leipzig.de:imap.leipzig.de:993
+bremen.de:imap.bremen.de:993
+dresden.de:imap.dresden.de:993
+hannover.de:imap.hannover.de:993
+nuernberg.de:imap.nuernberg.de:993
+
+# UK Extended
+three.co.uk:imap.three.co.uk:993
+giffgaff.com:imap.giffgaff.com:993
+tesco.net:imap.tesco.net:993
+tesco.com:imap.tesco.com:993
+asda.net:imap.asda.net:993
+cwgsy.net:imap.cwgsy.net:993
+guernsey.net:imap.guernsey.net:993
+jersey.net:imap.jersey.net:993
+manx.net:imap.manx.net:993
+london.co.uk:imap.london.co.uk:993
+manchester.co.uk:imap.manchester.co.uk:993
+birmingham.co.uk:imap.birmingham.co.uk:993
+glasgow.co.uk:imap.glasgow.co.uk:993
+liverpool.co.uk:imap.liverpool.co.uk:993
+edinburgh.co.uk:imap.edinburgh.co.uk:993
+bristol.co.uk:imap.bristol.co.uk:993
+cardiff.co.uk:imap.cardiff.co.uk:993
+belfast.co.uk:imap.belfast.co.uk:993
+leeds.co.uk:imap.leeds.co.uk:993
+sheffield.co.uk:imap.sheffield.co.uk:993
+
+# SPAIN Extended
+digi.es:imap.digi.es:993
+lowi.es:imap.lowi.es:993
+simyo.es:imap.simyo.es:993
+amena.com:imap.amena.com:993
+tuenti.es:imap.tuenti.es:993
+hits.es:imap.hits.es:993
+madrid.es:imap.madrid.es:993
+barcelona.es:imap.barcelona.es:993
+valencia.es:imap.valencia.es:993
+sevilla.es:imap.sevilla.es:993
+zaragoza.es:imap.zaragoza.es:993
+malaga.es:imap.malaga.es:993
+bilbao.es:imap.bilbao.es:993
+murcia.es:imap.murcia.es:993
+palma.es:imap.palma.es:993
+laspalmas.es:imap.laspalmas.es:993
+alicante.es:imap.alicante.es:993
+cordoba.es:imap.cordoba.es:993
+
+# ITALY Extended
+iliad.it:imap.iliad.it:993
+ho-mobile.it:imap.ho-mobile.it:993
+kena.it:imap.kena.it:993
+very.it:imap.very.it:993
+lycamobile.it:imap.lycamobile.it:993
+postemobile.it:imap.postemobile.it:993
+coop.it:imap.coop.it:993
+conad.it:imap.conad.it:993
+roma.it:imap.roma.it:993
+milano.it:imap.milano.it:993
+napoli.it:imap.napoli.it:993
+torino.it:imap.torino.it:993
+palermo.it:imap.palermo.it:993
+genova.it:imap.genova.it:993
+bologna.it:imap.bologna.it:993
+firenze.it:imap.firenze.it:993
+catania.it:imap.catania.it:993
+bari.it:imap.bari.it:993
+venezia.it:imap.venezia.it:993
+verona.it:imap.verona.it:993
+
+# NETHERLANDS Extended
+t-mobile.nl:imap.t-mobile.nl:993
+vodafone.nl:imap.vodafone.nl:993
+lycamobile.nl:imap.lycamobile.nl:993
+lebara.nl:imap.lebara.nl:993
+youfone.nl:imap.youfone.nl:993
+simpel.nl:imap.simpel.nl:993
+amsterdam.nl:imap.amsterdam.nl:993
+rotterdam.nl:imap.rotterdam.nl:993
+utrecht.nl:imap.utrecht.nl:993
+denhaag.nl:imap.denhaag.nl:993
+eindhoven.nl:imap.eindhoven.nl:993
+groningen.nl:imap.groningen.nl:993
+tilburg.nl:imap.tilburg.nl:993
+almere.nl:imap.almere.nl:993
+breda.nl:imap.breda.nl:993
+
+# BELGIUM Extended
+orange.be:imap.orange.be:993
+mobile-vikings.be:imap.mobile-vikings.be:993
+lycamobile.be:imap.lycamobile.be:993
+brussels.be:imap.brussels.be:993
+antwerp.be:imap.antwerp.be:993
+ghent.be:imap.ghent.be:993
+charleroi.be:imap.charleroi.be:993
+liege.be:imap.liege.be:993
+bruges.be:imap.bruges.be:993
+
+# SWITZERLAND Extended
+coop-mobile.ch:imap.coop-mobile.ch:993
+lebara.ch:imap.lebara.ch:993
+lycamobile.ch:imap.lycamobile.ch:993
+m-budget.ch:imap.m-budget.ch:993
+zurich.ch:imap.zurich.ch:993
+geneva.ch:imap.geneva.ch:993
+basel.ch:imap.basel.ch:993
+bern.ch:imap.bern.ch:993
+lausanne.ch:imap.lausanne.ch:993
+winterthur.ch:imap.winterthur.ch:993
+lucerne.ch:imap.lucerne.ch:993
+
+# AUSTRIA Extended
+bob.at:imap.bob.at:993
+yesss.at:imap.yesss.at:993
+spusu.at:imap.spusu.at:993
+hot.at:imap.hot.at:993
+wien.at:imap.wien.at:993
+graz.at:imap.graz.at:993
+linz.at:imap.linz.at:993
+salzburg.at:imap.salzburg.at:993
+innsbruck.at:imap.innsbruck.at:993
+klagenfurt.at:imap.klagenfurt.at:993
+
+# POLAND Extended
+play.pl:imap.play.pl:993
+plus.pl:imap.plus.pl:993
+orange.pl:imap.orange.pl:993
+t-mobile.pl:imap.t-mobile.pl:993
+heyah.pl:imap.heyah.pl:993
+virgin.pl:imap.virgin.pl:993
+nju.pl:imap.nju.pl:993
+red-bull.pl:imap.red-bull.pl:993
+warszawa.pl:imap.warszawa.pl:993
+krakow.pl:imap.krakow.pl:993
+lodz.pl:imap.lodz.pl:993
+wroclaw.pl:imap.wroclaw.pl:993
+poznan.pl:imap.poznan.pl:993
+gdansk.pl:imap.gdansk.pl:993
+szczecin.pl:imap.szczecin.pl:993
+lublin.pl:imap.lublin.pl:993
+katowice.pl:imap.katowice.pl:993
+
+# RUSSIA Extended
+tele2.ru:imap.tele2.ru:993
+mts.ru:imap.mts.ru:993
+megafon.ru:imap.megafon.ru:993
+beeline.ru:imap.beeline.ru:993
+yota.ru:imap.yota.ru:993
+motiv.ru:imap.motiv.ru:993
+tinkoff.ru:imap.tinkoff.ru:993
+sberbank.ru:imap.sberbank.ru:993
+vtb.ru:imap.vtb.ru:993
+gazprom.ru:imap.gazprom.ru:993
+lukoil.ru:imap.lukoil.ru:993
+rosneft.ru:imap.rosneft.ru:993
+moscow.ru:imap.moscow.ru:993
+spb.ru:imap.spb.ru:993
+novosibirsk.ru:imap.novosibirsk.ru:993
+yekaterinburg.ru:imap.yekaterinburg.ru:993
+nizhnynovgorod.ru:imap.nizhnynovgorod.ru:993
+kazan.ru:imap.kazan.ru:993
+chelyabinsk.ru:imap.chelyabinsk.ru:993
+samara.ru:imap.samara.ru:993
+rostov.ru:imap.rostov.ru:993
+
+# SWEDEN Extended
+tre.se:imap.tre.se:993
+telenor.se:imap.telenor.se:993
+lycamobile.se:imap.lycamobile.se:993
+hallon.se:imap.hallon.se:993
+fello.se:imap.fello.se:993
+stockholm.se:imap.stockholm.se:993
+gothenburg.se:imap.gothenburg.se:993
+malmo.se:imap.malmo.se:993
+uppsala.se:imap.uppsala.se:993
+vasteras.se:imap.vasteras.se:993
+orebro.se:imap.orebro.se:993
+linkoping.se:imap.linkoping.se:993
+helsingborg.se:imap.helsingborg.se:993
+
+# DENMARK Extended
+tre.dk:imap.tre.dk:993
+cbb.dk:imap.cbb.dk:993
+lebara.dk:imap.lebara.dk:993
+lycamobile.dk:imap.lycamobile.dk:993
+callme.dk:imap.callme.dk:993
+copenhagen.dk:imap.copenhagen.dk:993
+aarhus.dk:imap.aarhus.dk:993
+odense.dk:imap.odense.dk:993
+aalborg.dk:imap.aalborg.dk:993
+esbjerg.dk:imap.esbjerg.dk:993
+
+# FINLAND Extended
+dna.fi:imap.dna.fi:993
+telia.fi:imap.telia.fi:993
+moi.fi:imap.moi.fi:993
+globetel.fi:imap.globetel.fi:993
+helsinki.fi:imap.helsinki.fi:993
+espoo.fi:imap.espoo.fi:993
+tampere.fi:imap.tampere.fi:993
+vantaa.fi:imap.vantaa.fi:993
+oulu.fi:imap.oulu.fi:993
+turku.fi:imap.turku.fi:993
+jyvaskyla.fi:imap.jyvaskyla.fi:993
+
+# CZECH REPUBLIC Extended
+tmobile.cz:imap.tmobile.cz:993
+vodafone.cz:imap.vodafone.cz:993
+o2.cz:imap.o2.cz:993
+mobil.cz:imap.mobil.cz:993
+praha.cz:imap.praha.cz:993
+brno.cz:imap.brno.cz:993
+ostrava.cz:imap.ostrava.cz:993
+plzen.cz:imap.plzen.cz:993
+liberec.cz:imap.liberec.cz:993
+olomouc.cz:imap.olomouc.cz:993
+
+# ROMANIA Extended
+orange.ro:imap.orange.ro:993
+vodafone.ro:imap.vodafone.ro:993
+telekom.ro:imap.telekom.ro:993
+digi.ro:imap.digi.ro:993
+bucuresti.ro:imap.bucuresti.ro:993
+cluj.ro:imap.cluj.ro:993
+timisoara.ro:imap.timisoara.ro:993
+iasi.ro:imap.iasi.ro:993
+constanta.ro:imap.constanta.ro:993
+craiova.ro:imap.craiova.ro:993
+brasov.ro:imap.brasov.ro:993
+
+# HUNGARY Extended
+telenor.hu:imap.telenor.hu:993
+telekom.hu:imap.telekom.hu:993
+vodafone.hu:imap.vodafone.hu:993
+digi.hu:imap.digi.hu:993
+budapest.hu:imap.budapest.hu:993
+debrecen.hu:imap.debrecen.hu:993
+szeged.hu:imap.szeged.hu:993
+miskolc.hu:imap.miskolc.hu:993
+pecs.hu:imap.pecs.hu:993
+gyor.hu:imap.gyor.hu:993
+
+# GREECE Extended
+vodafone-cu.gr:imap.vodafone-cu.gr:993
+cyta.com.gr:imap.cyta.com.gr:993
+nova.gr:imap.nova.gr:993
+athens.gr:imap.athens.gr:993
+thessaloniki.gr:imap.thessaloniki.gr:993
+piraeus.gr:imap.piraeus.gr:993
+patras.gr:imap.patras.gr:993
+heraklion.gr:imap.heraklion.gr:993
+larissa.gr:imap.larissa.gr:993
+
+# TURKEY Extended
+turk-telekom.com.tr:imap.turk-telekom.com.tr:993
+bimcell.com.tr:imap.bimcell.com.tr:993
+ptt.com.tr:imap.ptt.com.tr:993
+istanbul.tr:imap.istanbul.tr:993
+ankara.tr:imap.ankara.tr:993
+izmir.tr:imap.izmir.tr:993
+bursa.tr:imap.bursa.tr:993
+adana.tr:imap.adana.tr:993
+gaziantep.tr:imap.gaziantep.tr:993
+konya.tr:imap.konya.tr:993
+antalya.tr:imap.antalya.tr:993
+
+# UKRAINE Extended
+kyivstar.ua:imap.kyivstar.ua:993
+vodafone.ua:imap.vodafone.ua:993
+lifecell.ua:imap.lifecell.ua:993
+triolan.ua:imap.triolan.ua:993
+kyiv.ua:imap.kyiv.ua:993
+kharkiv.ua:imap.kharkiv.ua:993
+odessa.ua:imap.odessa.ua:993
+dnipro.ua:imap.dnipro.ua:993
+lviv.ua:imap.lviv.ua:993
+zaporizhzhia.ua:imap.zaporizhzhia.ua:993
+
+# PORTUGAL Extended
+meo.pt:imap.meo.pt:993
+vodafone.pt:imap.vodafone.pt:993
+nos.pt:imap.nos.pt:993
+nowo.pt:imap.nowo.pt:993
+lisboa.pt:imap.lisboa.pt:993
+porto.pt:imap.porto.pt:993
+amadora.pt:imap.amadora.pt:993
+braga.pt:imap.braga.pt:993
+coimbra.pt:imap.coimbra.pt:993
+funchal.pt:imap.funchal.pt:993
+setubal.pt:imap.setubal.pt:993
+
+# IRELAND Extended
+three.ie:imap.three.ie:993
+48.ie:imap.48.ie:993
+lycamobile.ie:imap.lycamobile.ie:993
+dublin.ie:imap.dublin.ie:993
+cork.ie:imap.cork.ie:993
+galway.ie:imap.galway.ie:993
+limerick.ie:imap.limerick.ie:993
+waterford.ie:imap.waterford.ie:993
+
+
+net2000.ch:imap.net2000.ch:993
+commedesloups.fr:imap.commedesloups.fr:993
+epost.ch:imap.epost.ch:993
+p-bs.net:imap.p-bs.net:993
+intergga.ch:imap.intergga.ch:993
+custardstudio.com:imap.custardstudio.com:993
+climaconsult.com:imap.climaconsult.com:993
+yetnet.ch:imap.yetnet.ch:993
+magnet.ch:imap.magnet.ch:993
+cop.es:imap.cop.es:993
+jeremyjeffery.com:imap.jeremyjeffery.com:993
+eblcom.ch:imap.eblcom.ch:993
+net2000.ch:imap.net2000.ch:993
+masterplanbuilders.com:imap.masterplanbuilders.com:993
+rfh-campus.de:imap.rfh-campus.de:993
+netins.net:imap.netins.net:993
+sofmi.com:imap.sofmi.com:993
+studioslafabrique.com:imap.studioslafabrique.com:993
+netplus.ch:imap.netplus.ch:993
+yetnet.ch:imap.yetnet.ch:993
+homecall.co.uk:imap.homecall.co.uk:993
+aguasgrancanaria.com:imap.aguasgrancanaria.com:993
+intergga.ch:imap.intergga.ch:993
+beechdown.co.uk:mail.beechdown.co.uk:993
+onetel.com:imap.onetel.com:993
+hamptoncoffeecompany.com:imap.hamptoncoffeecompany.com:993
+toya.net.pl:mail.toya.net.pl:993
+telfort.nl:imap.telfort.nl:993
+wcgwave.ca:imap.wcgwave.ca:993
+netplus.ch:imap.netplus.ch:993
+hediger-net.ch:imap.hediger-net.ch:993
+ambonet.ch:imap.ambonet.ch:993
+heritage-house.eu:imap.heritage-house.eu:993
+rsnweb.ch:imap.rsnweb.ch:993
+allworksrl.it:imap.allworksrl.it:993
+sensemail.ch:imap.sensemail.ch:993
+sixwares.com:mail.sixwares.com:993
+sab-bretagne.fr:imap.sab-bretagne.fr:993
+estoppey.net:mail.estoppey.net:993
+optushome.com.au:mail.optushome.com.au:993
+tele-net.ch:mail.tele-net.ch:993
+optushome.com.au:mail.optushome.com.au:993
+rhf.com.br:mail.rhf.com.br:993
+b-turnier.de:imap.b-turnier.de:993
+vfl-herrenberg-fussball.de:imap.vfl-herrenberg-fussball.de:993
+rega-sense.ch:mail.rega-sense.ch:993
+biotek.it:mail.biotek.it:993
+gygax.eu:imap.gygax.eu:993
+vera.com.uy:imap.vera.com.uy:993
+glattnet.ch:imap.glattnet.ch:993
+fundacaoterra.org.br:mail.fundacaoterra.org.br:993
+grupotratorpecas.com.br:mail.grupotratorpecas.com.br:993
+netmadeira.com:imap.netmadeira.com:993
+sapo.mz:imap.sapo.mz:993
+gazi.edu.tr:imap.gazi.edu.tr:993
+onenessfirst.com:mail.onenessfirst.com:993
+fiory.com:mail.fiory.com:993
+novaamerica.net:imap.novaamerica.net:993
+tel.net.ba:imap.tel.net.ba:993
+cre8ive-imagery.com:mail.cre8ive-imagery.com:993
+srlstrade.it:imap.srlstrade.it:993
+directbox.com:imap.directbox.com:993
+cwpanama.net:mail.cwpanama.net:993
+namocochi.it:pop.namocochi.it:993
+mainestream.us:mail.mainestream.us:993
+cwpanama.net:mail.cwpanama.net:993
+damage.sk:mail.damage.sk:993
+kbas.dk:mail.kbas.dk:993
+towernet.it:mail.towernet.it:993
+lauk.ch:imap.lauk.ch:993
+atssardegna.it:mail.atssardegna.it:993
+livenet.ch:imap.livenet.ch:993
+envexengenharia.com.br:mail.envexengenharia.com.br:993
+cwpanama.net:mail.cwpanama.net:993
+farma-res.cz:mail.farma-res.cz:993
+breitband.ch:imap.breitband.ch:993
+rouviere-construction.com:imap.rouviere-construction.com:993
+telfs.com:imap.telfs.com:993
+uniba.it:mail.uniba.it:993
+montanasky.net:mail.montanasky.net:993
+wxs.nl:pop.wxs.nl:993
+ajoie-net.ch:imap.ajoie-net.ch:993
+optushome.com.au:mail.optushome.com.au:993
+conbrasengenharia.com.br:imap.conbrasengenharia.com.br:993
+bemaccontrols.com:mail.bemaccontrols.com:993
+uos.de:imap.uos.de:993
+dh.hu:mail.dh.hu:993
+vidresif.com:mail.vidresif.com:993
+vivaldi.net:imap.vivaldi.net:993
+intercity.net.ar:imap.intercity.net.ar:993
+envexengenharia.com.br:mail.envexengenharia.com.br:993
+vtxfree.ch:mail.vtxfree.ch:993
+admedika.co.id:mail.admedika.co.id:993
+binder-ertingen.de:imap.binder-ertingen.de:993
+vtxfree.ch:mail.vtxfree.ch:993
+csii.com.mx:imap.csii.com.mx:993
+faltus.sk:imap.faltus.sk:993
+soprane-music.com:mail.soprane-music.com:993
+inovaweb.cl:mail.inovaweb.cl:993
+mercoshipping.com.br:imap.mercoshipping.com.br:993
+mesnac.com:mail.mesnac.com:993
+emba.com.ar:imap.emba.com.ar:993
+ggaweb.ch:imap.ggaweb.ch:993
+kona.net:mail.kona.net:993
+andesmar.com.ar:mail.andesmar.com.ar:993
+wretchawry.com:mail.wretchawry.com:993
+techmen.sk:imap.techmen.sk:993
+taures.de:imap.taures.de:993
+admedika.co.id:mail.admedika.co.id:993
+componet.co.th:mail.componet.co.th:993
+traespa.com:imap.traespa.com:993
+buffetparadise.com.br:mail.buffetparadise.com.br:993
+albay.com.gt:mail.albay.com.gt:993
+residencefontenelle.fr:mail.residencefontenelle.fr:993
+valenza.it:imap.valenza.it:993
+int.pl:imap.int.pl:993
+viverdedeus.com.br:pop.viverdedeus.com.br:993
+katamail.com:imap.katamail.com:993
+zapp.ch:imap.zapp.ch:993
+adisys.ro:mail.adisys.ro:993
+zapp.ch:imap.zapp.ch:993
+biogans.ch:imap.biogans.ch:993
+blatter.fr:mail.blatter.fr:993
+inzi.lv:mail.inzi.lv:993
+kapari.co.tz:mail.kapari.co.tz:993
+tramontosrl.it:imap.tramontosrl.it:993
+opemipperu.com:mail.opemipperu.com:993
+vtxnet.ch:mail.vtxnet.ch:993
+ecocranes.ro:mail.ecocranes.ro:993
+collinesanbiagio.it:imap.collinesanbiagio.it:993
+liptovnet.sk:mail.liptovnet.sk:993
+diphuelva.org:mx.diphuelva.org:993
+cristianeromano.com.br:mail.cristianeromano.com.br:993
+blixtmail.se:imap.blixtmail.se:993
+c-box.cz:pop.c-box.cz:993
+hanseochem.co.kr:mail.hanseochem.co.kr:993
+perun.co.rs:imap.perun.co.rs:993
+adv.oabsp.org.br:imap.adv.oabsp.org.br:993
+cenpat-conicet.gob.ar:mail.cenpat-conicet.gob.ar:993
+doctors.org.uk:mail.doctors.org.uk:993
+enikom-m.com:mail.enikom-m.com:993
+spm-bg.com:imap.spm-bg.com:993
+ges-bg.com:imap.ges-bg.com:993
+systembay.com:mail.systembay.com:993
+stofanet.dk:mail.stofanet.dk:993
+usiwireless.com:mail.usiwireless.com:993
+kiwi-fibre.fr:imap.kiwi-fibre.fr:993
+websud.ch:imap.websud.ch:993
+cointra.com.ar:mail.cointra.com.ar:993
+serelia.fr:mail.serelia.fr:993
+jemako-mail.com:imap.jemako-mail.com:993
+huserreichen.com:imap.huserreichen.com:993
+thurweb.ch:imap.thurweb.ch:993
+jesus.ch:mail.jesus.ch:993
+iprimebr.com.br:imap.iprimebr.com.br:993
+edilmonteroma.it:imap.edilmonteroma.it:993
+hideoutlodge.com:imap.hideoutlodge.com:993
+garyraysign.com:mail.garyraysign.com:993
+sefanet.ch:imap.sefanet.ch:993
+barletta.ch:imap.barletta.ch:993
+hot.pl:mail.hot.pl:993
+dennyseduardo.com.br:mail.dennyseduardo.com.br:993
+atrepunti.com:mail.atrepunti.com:993
+brasildecastro.com.br:mail.brasildecastro.com.br:993
+infolink.com.br:imap.infolink.com.br:993
+thehughletts.com:imap.thehughletts.com:993
+jollyone.design:mail.jollyone.design:993
+shimchen.com:mail.shimchen.com:993
+mamasfood.mk:mail.mamasfood.mk:993
+fracisco.com:imap.fracisco.com:993
+satelbg.com:mail.satelbg.com:993
+escapethebot.net:imap.escapethebot.net:993
+carbajal.net:mail.carbajal.net:993
+federciclismo.it:mail.federciclismo.it:993
+partycruisersindia.com:mail.partycruisersindia.com:993
+prodhin.com.uy:mail.prodhin.com.uy:993
+shinternet.ch:mail.shinternet.ch:993
+mls.nc:imap.mls.nc:993
+bigpond.com.au:mail.bigpond.com.au:993
+hanselmann-systems.ch:imap.hanselmann-systems.ch:993
+nitroalarms.com:mail.nitroalarms.com:993
+upton.me.uk:mail.upton.me.uk:993
+gill.com:imap.gill.com:993
+itw.co.jp:imap.itw.co.jp:993
+tek-up.tn:imap.tek-up.tn:993
+romig.com.br:imap.romig.com.br:993
+hot.pl:mail.hot.pl:993
+dalaweb.ch:imap.dalaweb.ch:993
+c-c.bg:imap.c-c.bg:993
+insert.com.ar:imap.insert.com.ar:993
+saber.net:imap.saber.net:993
+institut-kinesiologie.ch:imap.institut-kinesiologie.ch:993
+meiepere.ee:imap.meiepere.ee:993
+vtxmail.ch:imap.vtxmail.ch:993
+spesh.net:mail.spesh.net:993
+generalprofile.com:mail.generalprofile.com:993
+nexteria.it:imap.nexteria.it:993
+wurzer.com:mail.wurzer.com:993
+shinternet.ch:mail.shinternet.ch:993
+darrehof.at:imap.darrehof.at:993
+thewheelnutman.co.uk:mail.thewheelnutman.co.uk:993
+onlinehome.de:imap.onlinehome.de:993
+hmvsi.com:imap.hmvsi.com:993
+destrukt.co.uk:mail.destrukt.co.uk:993
+lakhoua.com:imap.lakhoua.com:993
+aufi.at:imap.aufi.at:993
+kns.ch:imap.kns.ch:993
+mts.rs:mail.mts.rs:993
+cincochagas.pt:mail.cincochagas.pt:993
+tblr.eu:mail.tblr.eu:993
+disc-verkauf.ch:mail.disc-verkauf.ch:993
+aluborg.com:mail.aluborg.com:993
+paginesi.it:mail.paginesi.it:993
+tran.com:mail.tran.com:993
+dat010.nl:mail.dat010.nl:993
+netverk.com.ar:imap.netverk.com.ar:993
+page1.dk:mail.page1.dk:993
+casatadellago.com:pop.casatadellago.com:993
+unionkehlibar.com:imap.unionkehlibar.com:993
+yubc.net:mail.yubc.net:993
+ziknet.ch:smtp.ziknet.ch:993
+cytanet.com.cy:mail.cytanet.com.cy:993
+mykieta.fr:mail.mykieta.fr:993
+occn.zaq.ne.jp:mail.occn.zaq.ne.jp:993
+nationaltv.ro:mail.nationaltv.ro:993
+fuerst-ch.ch:imap.fuerst-ch.ch:993
+ombre-et-lumiere.fr:mail.ombre-et-lumiere.fr:993
+bratcorom.ro:mail.bratcorom.ro:993

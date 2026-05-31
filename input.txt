@@ -1,0 +1,4 @@
+# Email IMAP Checker - Input File
+# Format: email@domain.com:password
+# Example:
+# test@gmail.com:mypassword123
