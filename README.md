@@ -1,4 +1,4 @@
-# Email IMAP Checker Pro v4.0
+# 📧 Email IMAP Checker Pro v4.0 ✨
 
 A professional, high-performance email validation tool with IMAP protocol support. Validates email accounts across **1,833+ global email providers** from **100+ countries**.
 
@@ -119,9 +119,6 @@ python gui.py
 
 ```bash
 # Basic usage
-python atr3.py -i input.txt -t 500 -to 5
-
-# Or using imop.py
 python imop.py -i input.txt -t 500 -to 5
 
 # Full options
