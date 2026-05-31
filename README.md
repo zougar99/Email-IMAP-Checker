@@ -11,7 +11,7 @@ A professional, high-performance email validation tool with IMAP protocol suppor
 
 ## Features
 
-### Core Engine (`imop.py` / `atr3.py`)
+### Core Engine (`imop.py`)
 - **Multi-threaded Validation**: Process thousands of emails simultaneously using gevent
 - **1,833+ Email Providers**: Comprehensive database covering global ISPs
 - **IMAP SSL Support**: Secure connection to email servers
@@ -46,8 +46,8 @@ A professional, high-performance email validation tool with IMAP protocol suppor
 Email-IMAP-Checker/
 ├── main.py             # Main launcher with mode selection (GUI/CLI/Auto)
 ├── gui.py              # Professional GUI application (tkinter)
-├── imop.py             # Core IMAP checker engine (standalone)
-├── atr3.py             # Core IMAP checker engine (original)
+├── imop.py             # Core IMAP checker engine (main)
+├── atr3_original_backup.py  # Backup of original engine
 ├── auto_checker.py     # Auto-monitoring mode
 ├── stats.py            # Statistics analyzer
 ├── hoster.dat          # Email provider database (1,833 providers)
