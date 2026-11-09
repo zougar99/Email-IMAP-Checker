@@ -15,6 +15,7 @@ import os
 import queue
 import json
 import re
+import math
 from datetime import datetime
 from pathlib import Path
 
@@ -110,9 +111,9 @@ class EmailCheckerGUI:
         
         # Variables
         self.input_file = tk.StringVar(value="input.txt")
-        self.threads = tk.StringVar(value="500")
-        self.timeout = tk.StringVar(value="5")
-        self.check_unknown = tk.BooleanVar(value=True)
+        self.threads = tk.StringVar(value="10")
+        self.timeout = tk.StringVar(value="10")
+        self.check_unknown = tk.BooleanVar(value=False)
         self.save_invalid = tk.BooleanVar(value=True)
         self.grab_emails = tk.BooleanVar(value=False)
         
@@ -128,6 +129,9 @@ class EmailCheckerGUI:
         self.is_running = False
         self.output_queue = queue.Queue()
         self.start_time = None
+        self.stop_requested = False
+        self.error_count = 0
+        self.unmatched_count = 0
         
         # Configure root
         self.root.configure(bg=self.colors["bg"])
@@ -156,7 +160,11 @@ class EmailCheckerGUI:
         for widget in self.root.winfo_children():
             widget.destroy()
         self.create_widgets()
-        
+        if self.is_running:
+            self.start_btn.config(state=tk.DISABLED)
+            self.stop_btn.config(state=tk.NORMAL if not self.stop_requested else tk.DISABLED)
+            self.status_label.config(text="Running...", fg=self.colors["success"])
+
     def create_widgets(self):
         # Main container with padding
         main_container = tk.Frame(self.root, bg=self.colors["bg"])
@@ -709,20 +717,37 @@ class EmailCheckerGUI:
             messagebox.showerror("Error", f"Input file not found: {input_file}")
             return
             
+        try:
+            threads = int(self.threads.get())
+            timeout = float(self.timeout.get())
+            if not 1 <= threads <= 100 or not math.isfinite(timeout) or timeout <= 0:
+                raise ValueError
+        except ValueError:
+            messagebox.showerror("Error", "Threads must be 1–100 and timeout must be a positive number.")
+            return
+        from checker_core import parse_line
+        try:
+            with open(input_file, 'r', encoding='utf-8-sig') as f:
+                total = sum(1 for line in f if parse_line(line))
+        except (OSError, UnicodeError) as exc:
+            messagebox.showerror("Error", f"Cannot read input: {exc}")
+            return
+        if not total:
+            messagebox.showwarning("No accounts", "No valid email:password records found.")
+            return
+        input_file = os.path.abspath(input_file)
+        self.stop_requested = False
+        self.error_count = self.unmatched_count = 0
+        self.speed_var.set("0/s")
+        self.eta_var.set("--:--")
         # Reset statistics
         self.valid_count.set(0)
         self.invalid_count.set(0)
         self.progress_var.set(0)
         self.progress_label.config(text="0%")
         
-        # Count total emails
-        try:
-            with open(input_file, 'r', encoding='utf-8', errors='ignore') as f:
-                total = sum(1 for line in f if line.strip() and ':' in line)
-            self.total_count.set(total)
-        except:
-            self.total_count.set(0)
-            
+        self.total_count.set(total)
+
         self.is_running = True
         self.start_time = datetime.now()
         self.start_btn.config(state=tk.DISABLED)
@@ -738,14 +763,14 @@ class EmailCheckerGUI:
         
         # Build command
         cmd = [
-            sys.executable, "atr3.py",
+            sys.executable, "-u", "atr3.py",
             "-i", input_file,
             "-t", self.threads.get(),
             "-to", self.timeout.get()
         ]
         
-        if not self.check_unknown.get():
-            cmd.extend(["-uh", "False"])
+        if self.check_unknown.get():
+            cmd.extend(["-uh", "True"])
         if not self.save_invalid.get():
             cmd.extend(["-iu", "False"])
         if self.grab_emails.get():
@@ -766,23 +791,25 @@ class EmailCheckerGUI:
                 cwd=os.path.dirname(os.path.abspath(__file__))
             )
             
+            if self.stop_requested:
+                self.process.terminate()
             for line in iter(self.process.stdout.readline, ''):
                 if line:
                     self.output_queue.put(line.strip())
                     
             self.process.wait()
-            self.output_queue.put("__DONE__")
+            self.output_queue.put(("__DONE__", self.process.returncode))
             
         except Exception as e:
             self.output_queue.put(f"[ERROR] {str(e)}")
-            self.output_queue.put("__DONE__")
+            self.output_queue.put(("__DONE__", 1))
             
     def check_output_queue(self):
         try:
             while True:
                 message = self.output_queue.get_nowait()
-                if message == "__DONE__":
-                    self.on_process_complete()
+                if isinstance(message, tuple) and message[0] == "__DONE__":
+                    self.on_process_complete(message[1])
                 else:
                     # Parse and update statistics
                     self.parse_output(message)
@@ -805,14 +832,12 @@ class EmailCheckerGUI:
             
     def parse_output(self, message):
         """Parse output to update statistics"""
-        # Try to extract valid count from messages
-        if "Valid" in message and ":" in message:
-            try:
-                valid = int(re.search(r'(\d+)', message.split("Valid")[-1]).group(1))
-                self.valid_count.set(valid)
-            except:
-                pass
-                
+        match = re.fullmatch(r'\[PROGRESS\] valid=(\d+) invalid=(\d+) error=(\d+) unmatched=(\d+)', message)
+        if match:
+            valid, invalid, self.error_count, self.unmatched_count = map(int, match.groups())
+            self.valid_count.set(valid)
+            self.invalid_count.set(invalid)
+
     def update_statistics(self):
         """Update statistics periodically"""
         if self.is_running and self.start_time:
@@ -820,61 +845,67 @@ class EmailCheckerGUI:
             total = self.total_count.get()
             valid = self.valid_count.get()
             invalid = self.invalid_count.get()
-            processed = valid + invalid
+            processed = valid + invalid + self.error_count + self.unmatched_count
             
             if elapsed > 0 and processed > 0:
                 speed = processed / elapsed
                 self.speed_var.set(f"{speed:.1f}/s")
                 
                 if total > 0 and speed > 0:
-                    remaining = total - processed
+                    remaining = max(0, total - processed)
                     eta_seconds = remaining / speed
                     eta_min = int(eta_seconds // 60)
                     eta_sec = int(eta_seconds % 60)
                     self.eta_var.set(f"{eta_min:02d}:{eta_sec:02d}")
                     
-                    progress = (processed / total) * 100
+                    progress = min(100, (processed / total) * 100)
                     self.progress_var.set(progress)
                     self.progress_label.config(text=f"{progress:.1f}%")
                     
         self.root.after(1000, self.update_statistics)
         
-    def on_process_complete(self):
+    def on_process_complete(self, returncode):
         self.is_running = False
         self.process = None
         self.start_btn.config(state=tk.NORMAL)
         self.stop_btn.config(state=tk.DISABLED)
-        self.status_indicator.config(fg=self.colors["accent"])
-        self.status_label.config(text="Completed", fg=self.colors["accent"])
-        self.progress_var.set(100)
-        self.progress_label.config(text="100%")
-        
-        self.log_output("=" * 60, "success")
-        self.log_output("Process completed successfully!", "success")
-        
-        # Calculate and show summary
+        stopped = self.stop_requested
+        success = returncode == 0 and not stopped
+        label = "Stopped" if stopped else ("Completed" if success else "Failed")
+        color = self.colors["accent"] if success else self.colors["warning"] if stopped else self.colors["error"]
+        self.status_indicator.config(fg=color)
+        self.status_label.config(text=label, fg=color)
+        if success:
+            self.progress_var.set(100)
+            self.progress_label.config(text="100%")
+        self.log_output(f"Process {label.lower()} (exit code {returncode}).", "success" if success else "warning")
         if self.start_time:
             elapsed = (datetime.now() - self.start_time).total_seconds()
             self.log_output(f"Total time: {elapsed:.1f} seconds", "info")
-        self.log_output(f"Valid emails: {self.valid_count.get()}", "success")
-        self.log_output(f"Invalid emails: {self.invalid_count.get()}", "error")
-        self.log_output("=" * 60, "success")
-        
+        self.log_output(f"Valid: {self.valid_count.get()} | Invalid: {self.invalid_count.get()} | Network errors: {self.error_count} | Unknown providers: {self.unmatched_count}", "info")
+
     def stop_checking(self):
-        if self.process:
-            self.process.terminate()
-            self.log_output("Process stopped by user", "warning")
-            self.on_process_complete()
-            
+        if self.is_running:
+            self.stop_requested = True
+            self.stop_btn.config(state=tk.DISABLED)
+            if self.process:
+                self.process.terminate()
+            self.log_output("Stopping process...", "warning")
+
     def open_output_folder(self):
         output_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), "M-P-V-I")
         if os.path.exists(output_folder):
-            # Open the most recent folder
-            folders = sorted(Path(output_folder).iterdir(), key=os.path.getmtime, reverse=True)
-            if folders:
-                os.startfile(str(folders[0]))
-            else:
-                os.startfile(output_folder)
+            folders = sorted((p for p in Path(output_folder).iterdir() if p.is_dir()), key=os.path.getmtime, reverse=True)
+            target = str(folders[0]) if folders else output_folder
+            try:
+                if sys.platform == "win32":
+                    os.startfile(target)
+                elif sys.platform == "darwin":
+                    subprocess.Popen(["open", target])
+                else:
+                    subprocess.Popen(["xdg-open", target])
+            except OSError as exc:
+                messagebox.showerror("Error", f"Cannot open output folder: {exc}")
         else:
             messagebox.showinfo("Info", "Output folder not found. Run the checker first.")
             
