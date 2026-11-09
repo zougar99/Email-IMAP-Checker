@@ -81,14 +81,14 @@ def show_help():
 
 \033[93m⚙️ CLI OPTIONS:\033[0m
    -i, --input       Input file (default: mail_pass.txt)
-   -t, --threads     Number of concurrent threads (default: 1000)
-   -to, --timeout    Connection timeout in seconds (default: 5)
-   -uh               Check unknown hosts (default: True)
+   -t, --threads     Number of concurrent workers (default: 10; maximum: 100)
+   -to, --timeout    Connection timeout in seconds (default: 10)
+   -uh               Check unknown hosts (default: False)
    -iu               Save invalid emails (default: True)
    -g                Grab email contents (default: False)
 
 \033[93m💡 TIPS:\033[0m
-   • Use 500-1000 threads for optimal performance
+   • Use a low worker count to respect provider rate limits
    • Set timeout to 5-10 seconds for reliable results
    • Enable "Grab Emails" to search inbox contents
 
@@ -117,13 +117,13 @@ def run_cli():
     if not input_file:
         input_file = "input.txt"
         
-    threads = input("\033[96m[?] Threads (default: 500): \033[0m").strip()
+    threads = input("\033[96m[?] Threads (default: 10): \033[0m").strip()
     if not threads:
-        threads = "500"
+        threads = "10"
         
-    timeout = input("\033[96m[?] Timeout in seconds (default: 5): \033[0m").strip()
+    timeout = input("\033[96m[?] Timeout in seconds (default: 10): \033[0m").strip()
     if not timeout:
-        timeout = "5"
+        timeout = "10"
         
     print("\n\033[97m" + "=" * 60 + "\033[0m")
     print("\033[92m[*] Starting checker...\033[0m\n")
